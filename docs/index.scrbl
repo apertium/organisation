@@ -24,7 +24,9 @@
 Version 2.0 of the official Apertium documentation can be
 found
 @hyperlink["http://xixona.dlsi.ua.es/~fran/apertium2-documentation.pdf"]{
- here}.
+ here}. The LaTeX source file is archived on
+@hyperlink["https://sourceforge.net/p/apertium/svn/HEAD/tree/trunk/apertium-documentation/apertium-2.0/"]{
+ Sourceforge}.
 
 In addition, there is a lot of information on the
 @hyperlink["http://wiki.apertium.org"]{wiki} of the project.
