@@ -2,9 +2,11 @@
 
 @(require racket/date)
 
-@margin-note{This is an early draft.}
+@margin-note{This is an early draft. Contribute to this documentation on
+@hyperlink["https://github.com/taruen/organisation/tree/master/apertium-platform-doc"]{
+Github}.}
 
-@title[#:version "3.0"]{Documentation of the Open-Source Shallow-Transfer
+@title[#:version "3.5.2"]{Documentation of the Open-Source Shallow-Transfer
  Machine-Translation Platform @emph{Apertium}}
 
 @centered{AUTHORS}
@@ -62,9 +64,11 @@ The goal of this document is two-fold:
 
  ]
 
- @local-table-of-contents[]
+@local-table-of-contents[]
 
 @include-section["introduction.scrbl"]
+
+@include-section["stream-format-spec.scrbl"]
 
 @include-section["../../apertium-lex-tools/docs/index.scrbl"]
 
