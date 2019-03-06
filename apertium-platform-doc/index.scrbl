@@ -2,6 +2,8 @@
 
 @(require racket/date)
 
+@margin-note{This is an early draft.}
+
 @title[#:version "3.0"]{Documentation of the Open-Source Shallow-Transfer
  Machine-Translation Platform @emph{Apertium}}
 
