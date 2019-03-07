@@ -5,8 +5,6 @@
 @title[#:tag "stream-format-spec" #:version "3.5.2"]{Format
 specification of the data stream between modules}
 
-@section[#:tag "stream-format-spec:intro"]{Introduction}
-
 The format of the data that circulate between the engine's modules has to be
 specified so that document processing is more effective and transparent. The
 proposed system design (see Section \ref{ss:descrarq}) imposes the need to use
@@ -22,7 +20,7 @@ linguistic data, etc.
 
 @figure["fig:fdatos" "Three different data stream types in the machine
         translation system." @image["fdatos.svg"] #:style
-        left-figure-style ]
+        center-figure-style ]
 
 The data stream types are:
 

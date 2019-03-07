@@ -1,6 +1,7 @@
 #lang scribble/manual
 
-@(require racket/date)
+@(require racket/date
+          "references.rkt")
 
 @margin-note{This is an early draft. Contribute to this documentation on
 @hyperlink["https://github.com/taruen/organisation/tree/master/apertium-platform-doc"]{
@@ -68,8 +69,12 @@ The goal of this document is two-fold:
 
 @include-section["introduction.scrbl"]
 
+@include-section["engine.scrbl"]
+
 @include-section["stream-format-spec.scrbl"]
 
 @include-section["../../apertium-lex-tools/docs/index.scrbl"]
 
 @include-section["../../apertium-separable/docs/index.scrbl"]
+
+@(generate-bibliography)
