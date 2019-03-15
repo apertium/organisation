@@ -1,2 +1,2 @@
-apertium-platform-doc/doc/
-apertium-platform-doc/compiled/
+./docs-source/doc/*
+./docs-source/compiled/*

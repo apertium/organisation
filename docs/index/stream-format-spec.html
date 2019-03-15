@@ -9,13 +9,13 @@ Machine-Translation Platform Apertium&quot;" data-pltdoc="x">up</a>&nbsp;&nbsp;<
 specification of the data stream between modules</h3><p>The format of the data that circulate between the engine&rsquo;s modules has to be
 specified so that document processing is more effective and transparent. The
 proposed system design (see Section \ref{ss:descrarq}) imposes the need to use
-three different data stream types, as shown in <a href="#%28counter._%28figure._fig~3afdatos%29%29" data-pltdoc="x">figure&nbsp;<span class="FigureRef">1</span></a>.</p><p>The stream format is text-based to facilitate, among other things, the
+three different data stream types, as shown in <a href="#%28counter._%28figure._fig~3afdatos%29%29" data-pltdoc="x">figure&nbsp;<span class="FigureRef">2</span></a>.</p><p>The stream format is text-based to facilitate, among other things, the
 diagnosis of possible system errors, since it is easy to manipulate the stream
 in order to reproduce the phenomena that are to be tested, and change it to see
 the result. Other benefits of using text streams are that it is possible to
 test independently the output of each module, and that it allows for fast
 building of prototypes to test the system&rsquo;s global performance, the validity of
-linguistic data, etc.</p><blockquote class="Figure"><blockquote class="Centerfigure"><blockquote class="FigureInside"><p><img src="fdatos.svg" alt="" width="709.33331" height="273.33334"/></p></blockquote></blockquote><p class="Centertext"><span class="Legend"><span class="FigureTarget"><a name="(counter._(figure._fig~3afdatos))" x-target-lift="Figure"></a>Figure&nbsp;1: </span>Three different data stream types in the machine
+linguistic data, etc.</p><blockquote class="Figure"><blockquote class="Centerfigure"><blockquote class="FigureInside"><p><img src="fdatos.svg" alt="" width="709.33331" height="273.33334"/></p></blockquote></blockquote><p class="Centertext"><span class="Legend"><span class="FigureTarget"><a name="(counter._(figure._fig~3afdatos))" x-target-lift="Figure"></a>Figure&nbsp;2: </span>Three different data stream types in the machine
         translation system.</span></p></blockquote><p>The data stream types are:</p><ul><li><p><span style="font-style: italic">Data stream with format:</span> It is the text in its original
 format, with no further marks: XML, ANSI text, RTF, HTML, etc. Since
 it is the original format of the documents, nothing needs to be
