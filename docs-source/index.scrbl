@@ -4,7 +4,7 @@
           "references.rkt")
 
 @margin-note{This is an early draft. Contribute to this documentation on
-@hyperlink["https://github.com/taruen/organisation/tree/master/apertium-platform-doc"]{
+@hyperlink["https://github.com/taruen/organisation/tree/master/docs-source"]{
 Github}.}
 
 @title[#:version "3.5.2"]{Documentation of the Open-Source Shallow-Transfer
