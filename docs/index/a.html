@@ -1,0 +1,264 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html><head><meta http-equiv="content-type" content="text/html; charset=utf-8"/><meta name="viewport" content="width=device-width, initial-scale=0.8"/><title>10&nbsp;Appendix A. XML DTDs</title><link rel="stylesheet" type="text/css" href="../scribble.css" title="default"/><link rel="stylesheet" type="text/css" href="../manual-style.css" title="default"/><link rel="stylesheet" type="text/css" href="../manual-racket.css" title="default"/><link rel="stylesheet" type="text/css" href="../manual-racket.css" title="default"/><link rel="stylesheet" type="text/css" href="../doc-site.css" title="default"/><script type="text/javascript" src="../scribble-common.js"></script><script type="text/javascript" src="../manual-racket.js"></script><script type="text/javascript" src="../manual-racket.js"></script><script type="text/javascript" src="../doc-site.js"></script><script type="text/javascript" src="file:///usr/share/doc/racket/local-redirect/local-redirect.js"></script><script type="text/javascript" src="file:///home/selimcan/.racket/7.2/doc/local-redirect/local-user-redirect.js"></script><!--[if IE 6]><style type="text/css">.SIEHidden { overflow: hidden; }</style><![endif]--></head><body id="doc-racket-lang-org"><div class="tocset"><div class="tocview"><div class="tocviewlist tocviewlisttopspace"><div class="tocviewtitle"><table cellspacing="0" cellpadding="0"><tr><td style="width: 1em;"><a href="javascript:void(0);" title="Expand/Collapse" class="tocviewtoggle" onclick="TocviewToggle(this,&quot;tocview_0&quot;);">&#9660;</a></td><td></td><td><a href="index.html" class="tocviewlink" data-pltdoc="x">Documentation of the Open-<wbr></wbr>Source Shallow-<wbr></wbr>Transfer
+Machine-<wbr></wbr>Translation Platform <span style="font-style: italic">Apertium</span></a></td></tr></table></div><div class="tocviewsublistonly" style="display: block;" id="tocview_0"><table cellspacing="0" cellpadding="0"><tr><td align="right">1&nbsp;</td><td><a href="intro.html" class="tocviewlink" data-pltdoc="x">Introduction</a></td></tr><tr><td align="right">2&nbsp;</td><td><a href="engine.html" class="tocviewlink" data-pltdoc="x">The shallow-<wbr></wbr>transfer machine
+translation engine</a></td></tr><tr><td align="right">3&nbsp;</td><td><a href="stream-format-spec.html" class="tocviewlink" data-pltdoc="x">Format
+specification of the data stream between modules</a></td></tr><tr><td align="right">4&nbsp;</td><td><a href="modules-spec.html" class="tocviewlink" data-pltdoc="x">Modules specification</a></td></tr><tr><td align="right">5&nbsp;</td><td><a href="install-and-run.html" class="tocviewlink" data-pltdoc="x">Installing and running the system</a></td></tr><tr><td align="right">6&nbsp;</td><td><a href="maintain.html" class="tocviewlink" data-pltdoc="x">Maintaining linguistic data</a></td></tr><tr><td align="right">7&nbsp;</td><td><a href="data-insertion.html" class="tocviewlink" data-pltdoc="x">Data insertion web forms</a></td></tr><tr><td align="right">8&nbsp;</td><td><a href="Apertium-lex-tools.html" class="tocviewlink" data-pltdoc="x">Apertium-<wbr></wbr>lex-<wbr></wbr>tools</a></td></tr><tr><td align="right">9&nbsp;</td><td><a href="Apertium-separable.html" class="tocviewlink" data-pltdoc="x">Apertium-<wbr></wbr>separable</a></td></tr><tr><td align="right">10&nbsp;</td><td><a href="" class="tocviewselflink" data-pltdoc="x">Appendix A. XML DTDs</a></td></tr><tr><td align="right">11&nbsp;</td><td><a href="b.html" class="tocviewlink" data-pltdoc="x">Appendix B. Grammatical symbols used in the modules</a></td></tr><tr><td align="right">12&nbsp;</td><td><a href="c.html" class="tocviewlink" data-pltdoc="x">Appendix C. Abbreviations used in the text</a></td></tr><tr><td align="right"></td><td><a href="doc-bibliography.html" class="tocviewlink" data-pltdoc="x">Bibliography</a></td></tr></table></div></div></div></div><div class="maincolumn"><div class="main"><div class="versionbox"><span class="version">3.5.2</span></div><div class="navsettop"><span class="navleft"><form class="searchform"><input class="searchbox" style="color: #888;" type="text" value="...search manuals..." title="Enter a search string to search the manuals" onkeypress="return DoSearchKey(event, this, &quot;7.2&quot;, &quot;../&quot;);" onfocus="this.style.color=&quot;black&quot;; this.style.textAlign=&quot;left&quot;; if (this.value == &quot;...search manuals...&quot;) this.value=&quot;&quot;;" onblur="if (this.value.match(/^ *$/)) { this.style.color=&quot;#888&quot;; this.style.textAlign=&quot;center&quot;; this.value=&quot;...search manuals...&quot;; }"/></form>&nbsp;&nbsp;<a href="../index.html" title="up to the documentation top" data-pltdoc="x" onclick="return GotoPLTRoot(&quot;7.2&quot;);">top</a></span><span class="navright">&nbsp;&nbsp;<a href="Apertium-separable.html" title="backward to &quot;9 Apertium-separable&quot;" data-pltdoc="x">&larr; prev</a>&nbsp;&nbsp;<a href="index.html" title="up to &quot;Documentation of the Open-Source Shallow-Transfer
+Machine-Translation Platform Apertium&quot;" data-pltdoc="x">up</a>&nbsp;&nbsp;<a href="b.html" title="forward to &quot;11 Appendix B. Grammatical symbols used in the modules&quot;" data-pltdoc="x">next &rarr;</a></span>&nbsp;</div><h3 x-source-module="(lib &quot;apertium-platform-doc/index.scrbl&quot;)" x-source-pkg="docs-source" x-part-tag="&quot;a&quot;">10<tt>&nbsp;</tt><a name="(part._a)"></a>Appendix A. XML DTDs</h3><p>\section{DTD for the format of dictionaries}
+\label{ss:dtd_dics}</p><p>Document type definition for the format of morphological, bilingual
+and post-generation dictionaries in XML; this definition is provided
+with the \texttt{apertium} package (last version) which can be
+downloaded from \url{http://www.sourceforge.net}.</p><p>The description of its elements can be found in Section
+\ref{formatodics}.</p><p>\begin{small}
+\begin{alltt}
+&lt;!\textsl{ELEMENT} \textbf{dictionary} (alphabet?, sdefs?,
+                      pardefs?, section+)&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{alphabet} (\textsl{#PCDATA})&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{sdefs} (sdef+)&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{sdef} \textsl{EMPTY}&gt;
+&lt;!\textsl{ATTLIST} sdef n ID \textsl{#REQUIRED}&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{pardefs} (pardef+)&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{pardef} (e+)&gt;
+&lt;!\textsl{ATTLIST} pardef n CDATA \textsl{#REQUIRED}&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{section} (e+)&gt;</p><p>&lt;!\textsl{ATTLIST} section id ID \textsl{#REQUIRED}
+                  type (standard|inconditional|postblank) \textsl{#REQUIRED}&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{e} (i | p | par | re)+&gt;
+&lt;!\textsl{ATTLIST} e r (LR|RL) \textsl{#IMPLIED}
+            lm CDATA \textsl{#IMPLIED}
+            a CDATA \textsl{#IMPLIED}
+            c CDATA \textsl{#IMPLIED}</p><p>&lt;!\textsl{ELEMENT} \textbf{par} \textsl{EMPTY}&gt;
+&lt;!\textsl{ATTLIST} par n CDATA \textsl{#REQUIRED}&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{i} (\textsl{#PCDATA} | b | s | g | j | a)*&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{re} (\textsl{#PCDATA})&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{p} (l, r)&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{l} (\textsl{#PCDATA} | a | b | g | j | s)*&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{r} (\textsl{#PCDATA} | a | b | g | j | s)*&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{a} \textsl{EMPTY}&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{b} \textsl{EMPTY}&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{g} (\textsl{#PCDATA} | a | b | j | s)*&gt;
+&lt;!\textsl{ATTLIST} g i CDATA \textsl{#IMPLIED}&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{j} \textsl{EMPTY}&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{s} \textsl{EMPTY}&gt;</p><p>&lt;!\textsl{ATTLIST} s n \textsl{IDREF} \textsl{#REQUIRED}&gt;</p><p>\end{alltt}
+\end{small}</p><p>\subsection{Modification of the DTD of dictionaries for lexical
+selection}
+\label{dixdtd}</p><p>The DTD for the format of dictionaries has been slightly modified so
+that dictionaries can be used in a system that has a lexical selection
+module. The change only affects the \texttt{&lt;e&gt;} element and is
+displayed next.</p><p>\begin{small}
+\begin{alltt}</p><p>...
+&lt;!\textsl{ATTLIST} e
+        r (LR|RL) \textsl{#IMPLIED}
+        lm \textsl{CDATA #IMPLIED}
+        a \textsl{CDATA #IMPLIED}
+        c \textsl{CDATA #IMPLIED}&gt;
+        i CDATA \textsl{#IMPLIED}
+        slr CDATA \textsl{#IMPLIED}
+        srl CDATA \textsl{#IMPLIED}&gt;</p><p>&lt;!&ndash; r: restriction LR: left-to-right,
+                      RL: right-to-left &ndash;&gt;
+  &lt;!&ndash; lm: lemma &ndash;&gt;
+  &lt;!&ndash; a: author &ndash;&gt;
+  &lt;!&ndash; c: comment &ndash;&gt;
+  &lt;!&ndash; i: ignore (&rsquo;yes&rsquo;) means ignore, otherwise it is not ignored) &ndash;&gt;
+  &lt;!&ndash; slr: translation sense when translating from left to right &ndash;&gt;
+  &lt;!&ndash; srl: translation sense when translating from right to left &ndash;&gt;
+...</p><p>\end{alltt}
+\end{small}</p><p>\section[DTD for the tagger file]{DTD for the format of the tagger
+file}
+\label{ss:DTD_desambiguador}</p><p>DTD that defines the format of the tagger specification file.  This
+definition is provided with the \texttt{apertium} package (last
+version) which can be downloaded from
+\url{http://www.sourceforge.net}.</p><p>The description of its elements can be found in
+Section~\ref{formatotagger}.</p><p>\begin{small}
+  \begin{alltt}
+&lt;!\textsl{ELEMENT} \textbf{tagger} (tagset,forbid?,enforce-rules?,preferences?)&gt;
+&lt;!\textsl{ATTLIST} tagger name \textsl{CDATA} \textsl{#REQUIRED}&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{tagset} (def-label+,def-mult*)&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{def-label} (tags-item+)&gt;
+&lt;!\textsl{ATTLIST} def-label name \textsl{CDATA} \textsl{#REQUIRED}
+                    closed \textsl{CDATA} \textsl{#IMPLIED}&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{tags-item} \textsl{#EMPTY}&gt;
+&lt;!\textsl{ATTLIST} tags-item tags \textsl{CDATA} \textsl{#REQUIRED}
+                    lemma \textsl{CDATA} \textsl{#IMPLIED}&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{def-mult} (sequence+)&gt;
+&lt;!\textsl{ATTLIST} def-mult name \textsl{CDATA} \textsl{#REQUIRED}
+                   closed \textsl{CDATA} \textsl{#IMPLIED}&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{sequence} ((tags-item|label-item)+)&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{label-item} \textsl{#EMPTY}&gt;
+&lt;!\textsl{ATTLIST} label-item label \textsl{CDATA} \textsl{#REQUIRED}&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{forbid} (label-sequence+)&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{label-sequence} (label-item+)&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{enforce-rules} (enforce-after+)&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{enforce-after} (label-set)&gt;
+&lt;!\textsl{ATTLIST} enforce-after label \textsl{CDATA} \textsl{#REQUIRED}&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{label-set} (label-item+)&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{preferences} (prefer+)&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{prefer} \textsl{EMPTY}&gt;
+&lt;!\textsl{ATTLIST} prefer tags \textsl{CDATA} \textsl{#REQUIRED}&gt;
+  \end{alltt}
+\end{small}</p><p>\section[DTD of the chunker module]{DTD of the structural transfer
+module (chunker)}
+\label{ss:dtdtransfer}</p><p>DTD for the format of the structural transfer rules in the
+\texttt{chunker} module.  This definition is provided with the
+\texttt{apertium} package (version 2.0) which can be downloaded from
+\url{http://www.sourceforge.net}.</p><p>Its elements are described in Section \ref{formatotransfer}.</p><p>\begin{small}
+\begin{alltt}
+&lt;!\textsl{ENTITY} \% condition "(and|or|not|equal|begins-with|
+                       ends-with|contains-substring|in)"&gt;
+&lt;!\textsl{ENTITY} \% container "(var|clip)"&gt;
+&lt;!\textsl{ENTITY} \% sentence "(let|out|choose|modify-case|
+                      call-macro|append)"&gt;
+&lt;!\textsl{ENTITY} \% value "(b|clip|lit|lit-tag|var|get-case-from|
+                   case-of|concat)"&gt;
+&lt;!\textsl{ENTITY} \% stringvalue "(clip|lit|var|get-case-from|
+                         case-of)"&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{transfer} (section-def-cats,
+                    section-def-attrs,
+                    section-def-vars,
+                    section-def-lists?,
+                    section-def-macros?,
+                    section-rules)&gt;</p><p>&lt;!\textsl{ATTLIST} transfer default (lu|chunk) \textsl{#IMPLIED}&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{section-def-cats} (def-cat+)&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{def-cat} (cat-item+)&gt;
+&lt;!\textsl{ATTLIST} def-cat n ID \textsl{#REQUIRED}&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{cat-item} \textsl{EMPTY}&gt;
+&lt;!\textsl{ATTLIST} cat-item lemma CDATA \textsl{#IMPLIED}
+                   tags CDATA \textsl{#REQUIRED} &gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{section-def-attrs} (def-attr+)&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{def-attr} (attr-item+)&gt;
+&lt;!\textsl{ATTLIST} def-attr n ID \textsl{#REQUIRED}&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{attr-item} \textsl{EMPTY}&gt;
+&lt;!\textsl{ATTLIST} attr-item tags CDATA \textsl{#IMPLIED}&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{section-def-vars} (def-var+)&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{def-var} \textsl{EMPTY}&gt;
+&lt;!\textsl{ATTLIST} def-var n ID \textsl{#REQUIRED}&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{section-def-lists} (def-list)+&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{def-list} (list-item+)&gt;
+&lt;!\textsl{ATTLIST} def-list n ID \textsl{#REQUIRED}&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{list-item} \textsl{EMPTY}&gt;
+&lt;!\textsl{ATTLIST} list-item v CDATA \textsl{#REQUIRED}&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{section-def-macros} (def-macro)+&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{def-macro} (\%sentence;)+&gt;
+&lt;!\textsl{ATTLIST} def-macro n ID \textsl{#REQUIRED}&gt;
+&lt;!\textsl{ATTLIST} def-macro npar CDATA \textsl{#REQUIRED}&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{section-rules} (rule+)&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{rule} (pattern, action)&gt;
+&lt;!\textsl{ATTLIST} rule comment CDATA \textsl{#IMPLIED}&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{pattern} (pattern-item+)&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{pattern-item} \textsl{EMPTY}&gt;
+&lt;!\textsl{ATTLIST} pattern-item n \textsl{IDREF} \textsl{#REQUIRED}&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{action} (\%sentence;)*&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{choose} (when+,otherwise?)&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{when} (test,(\%sentence;)*)&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{otherwise} (\%sentence;)+&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{test} (\%condition;)+&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{and} ((\%condition;),(\%condition;)+)&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{or} ((\%condition;),(\%condition;)+)&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{not} (\%condition;)&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{equal} (\%value;,\%value;)&gt;
+&lt;!\textsl{ATTLIST} equal caseless (no|yes) \textsl{#IMPLIED}&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{begins-with} (\%value;,\%value;)&gt;
+&lt;!\textsl{ATTLIST} begins-with caseless (no|yes) \textsl{#IMPLIED}&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{ends-with} (\%value;,\%value;)&gt;
+&lt;!\textsl{ATTLIST} ends-with caseless (no|yes) \textsl{#IMPLIED}&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{contains-substring} (\%value;,\%value;)&gt;
+&lt;!\textsl{ATTLIST} contains-substring caseless (no|yes) \textsl{#IMPLIED}&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{in} (\%value;, list)&gt;
+&lt;!\textsl{ATTLIST} in caseless (no|yes) \textsl{#IMPLIED}&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{list} \textsl{EMPTY}&gt;
+&lt;!\textsl{ATTLIST} list n \textsl{IDREF} \textsl{#REQUIRED}&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{let} (\%container;, \%value;)&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{append} (\%value;)+&gt;
+&lt;!\textsl{ATTLIST} append n \textsl{IDREF} \textsl{#REQUIRED}&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{out} (mlu|lu|b|chunk)+&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{modify-case} (\%container;, \%stringvalue;)&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{call-macro} (with-param)*&gt;
+&lt;!\textsl{ATTLIST} call-macro n \textsl{IDREF} \textsl{#REQUIRED}&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{with-param} \textsl{EMPTY}&gt;
+&lt;!\textsl{ATTLIST} with-param pos CDATA \textsl{#REQUIRED}&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{clip} \textsl{EMPTY}&gt;
+&lt;!\textsl{ATTLIST} clip pos CDATA \textsl{#REQUIRED}
+               side (sl|tl) \textsl{#REQUIRED}
+               part CDATA \textsl{#REQUIRED}
+               queue CDATA \textsl{#IMPLIED}
+               link-to CDATA \textsl{#IMPLIED}&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{lit} \textsl{EMPTY}&gt;
+&lt;!\textsl{ATTLIST} lit v CDATA \textsl{#REQUIRED}&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{lit-tag} \textsl{EMPTY}&gt;
+&lt;!\textsl{ATTLIST} lit-tag v CDATA \textsl{#REQUIRED}&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{var} \textsl{EMPTY}&gt;
+&lt;!\textsl{ATTLIST} var n \textsl{IDREF} \textsl{#REQUIRED}&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{get-case-from} (clip|lit|var)&gt;
+&lt;!\textsl{ATTLIST} get-case-from pos CDATA \textsl{#REQUIRED}&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{case-of} \textsl{EMPTY}&gt;
+&lt;!\textsl{ATTLIST} case-of pos CDATA \textsl{#REQUIRED}
+                  side (sl|tl) \textsl{#REQUIRED}
+                  part CDATA \textsl{#REQUIRED}&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{concat} (\%value;)+&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{mlu} (lu+)&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{lu} (\%value;)+&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{chunk} (tags,(mlu|lu|b)+)&gt;
+&lt;!\textsl{ATTLIST} chunk name CDATA \textsl{#IMPLIED}
+                namefrom CDATA \textsl{#IMPLIED}
+                case CDATA \textsl{#IMPLIED}&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{tags} (tag+)&gt;
+&lt;!\textsl{ELEMENT} \textbf{tag} (\%value;)&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{b} \textsl{EMPTY}&gt;
+&lt;!\textsl{ATTLIST} b pos CDATA \textsl{#IMPLIED}&gt;</p><p>\end{alltt}
+\end{small}</p><p>\newpage
+\section{DTD of the interchunk module}
+\label{ss:dtdinterchunk}</p><p>DTD for the format of the structural transfer rules in the
+\texttt{interchunk} module. This definition is provided with the
+\texttt{apertium} package (version 2.0) which can be downloaded from
+\url{http://www.sourceforge.net}.</p><p>Its elements are described in Section \ref{formatotransfer}.</p><p>\begin{small}
+\begin{alltt}</p><p>&lt;!\textsl{ENTITY} \% condition "(and|or|not|equal|begins-with|
+                       ends-with|contains-substring|in)"&gt;
+&lt;!\textsl{ENTITY} \% container "(var|clip)"&gt;
+&lt;!\textsl{ENTITY} \% sentence "(let|out|choose|modify-case|
+                      call-macro|append)"&gt;
+&lt;!\textsl{ENTITY} \% value "(b|clip|lit|lit-tag|var|get-case-from|
+                   case-of|concat)"&gt;
+&lt;!\textsl{ENTITY} \% stringvalue "(clip|lit|var|get-case-from|
+                         case-of)"&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{interchunk} (section-def-cats,
+                      section-def-attrs,
+                      section-def-vars,
+                      section-def-lists?,
+                      section-def-macros?,
+                      section-rules)&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{section-def-cats} (def-cat+)&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{def-cat} (cat-item+)&gt;
+&lt;!\textsl{ATTLIST} def-cat n ID \textsl{#REQUIRED}&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{cat-item} \textsl{EMPTY}&gt;
+&lt;!\textsl{ATTLIST} cat-item lemma CDATA \textsl{#IMPLIED}
+                    tags CDATA \textsl{#REQUIRED} &gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{section-def-attrs} (def-attr+)&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{def-attr} (attr-item+)&gt;
+&lt;!\textsl{ATTLIST} def-attr n ID \textsl{#REQUIRED}&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{attr-item} \textsl{EMPTY}&gt;
+&lt;!\textsl{ATTLIST} attr-item tags CDATA \textsl{#IMPLIED}&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{section-def-vars} (def-var+)&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{def-var} \textsl{EMPTY}&gt;
+&lt;!\textsl{ATTLIST} def-var n ID \textsl{#REQUIRED}&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{section-def-lists} (def-list)+&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{def-list} (list-item+)&gt;
+&lt;!\textsl{ATTLIST} def-list n ID \textsl{#REQUIRED}&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{list-item} \textsl{EMPTY}&gt;
+&lt;!\textsl{ATTLIST} list-item v CDATA \textsl{#REQUIRED}&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{section-def-macros} (def-macro)+&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{def-macro} (\%sentence;)+&gt;
+&lt;!\textsl{ATTLIST} def-macro n ID \textsl{#REQUIRED}&gt;
+&lt;!\textsl{ATTLIST} def-macro npar CDATA \textsl{#REQUIRED}&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{section-rules} (rule+)&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{rule} (pattern, action)&gt;
+&lt;!\textsl{ATTLIST} rule comment CDATA \textsl{#IMPLIED}&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{pattern} (pattern-item+)&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{pattern-item} \textsl{EMPTY}&gt;
+&lt;!\textsl{ATTLIST} pattern-item n \textsl{IDREF} \textsl{#REQUIRED}&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{action} (\%sentence;)*&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{choose} (when+,otherwise?)&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{when} (test,(\%sentence;)*)&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{otherwise} (\%sentence;)+&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{test} (\%condition;)+&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{and} ((\%condition;),(\%condition;)+)&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{or} ((\%condition;),(\%condition;)+)&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{not} (\%condition;)&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{equal} (\%value;,\%value;)&gt;
+&lt;!\textsl{ATTLIST} equal caseless (no|yes) \textsl{#IMPLIED}&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{begins-with} (\%value;,\%value;)&gt;
+&lt;!\textsl{ATTLIST} begins-with caseless (no|yes) \textsl{#IMPLIED}&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{ends-with} (\%value;,\%value;)&gt;
+&lt;!\textsl{ATTLIST} ends-with caseless (no|yes) \textsl{#IMPLIED}&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{contains-substring} (\%value;,\%value;)&gt;
+&lt;!\textsl{ATTLIST} contains-substring caseless (no|yes) \textsl{#IMPLIED}&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{in} (\%value;, list)&gt;
+&lt;!\textsl{ATTLIST} in caseless (no|yes) \textsl{#IMPLIED}&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{list} \textsl{EMPTY}&gt;
+&lt;!\textsl{ATTLIST} list n \textsl{IDREF} \textsl{#REQUIRED}&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{let} (\%container;, \%value;)&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{append} (\%value;)+&gt;
+&lt;!\textsl{ATTLIST} append n \textsl{IDREF} \textsl{#REQUIRED}&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{out} (b|chunk)+&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{modify-case} (\%container;, \%stringvalue;)&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{call-macro} (with-param)*&gt;
+&lt;!\textsl{ATTLIST} call-macro n \textsl{IDREF} \textsl{#REQUIRED}&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{with-param} \textsl{EMPTY}&gt;
+&lt;!\textsl{ATTLIST} with-param pos CDATA \textsl{#REQUIRED}&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{clip} \textsl{EMPTY}&gt;
+&lt;!\textsl{ATTLIST} clip pos CDATA \textsl{#REQUIRED}
+               part CDATA \textsl{#REQUIRED}&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{lit} \textsl{EMPTY}&gt;
+&lt;!\textsl{ATTLIST} lit v CDATA \textsl{#REQUIRED}&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{lit-tag} \textsl{EMPTY}&gt;
+&lt;!\textsl{ATTLIST} lit-tag v CDATA \textsl{#REQUIRED}&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{var} \textsl{EMPTY}&gt;
+&lt;!\textsl{ATTLIST} var n \textsl{IDREF} \textsl{#REQUIRED}&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{get-case-from} (clip|lit|var)&gt;
+&lt;!\textsl{ATTLIST} get-case-from pos CDATA \textsl{#REQUIRED}&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{case-of} \textsl{EMPTY}&gt;
+&lt;!\textsl{ATTLIST} case-of pos CDATA \textsl{#REQUIRED}
+                  part CDATA \textsl{#REQUIRED}&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{concat} (\%value;)+&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{chunk} (\%value;)+&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{pseudolemma} (\%value;)&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{b} \textsl{EMPTY}&gt;
+&lt;!\textsl{ATTLIST} b pos CDATA \textsl{#IMPLIED}&gt;</p><p>\end{alltt}
+\end{small}</p><p>\newpage</p><p>\section{DTD of the postchunk module}
+\label{ss:dtdpostchunk}</p><p>DTD for the format of the structural transfer rules in the
+\texttt{postchunk} module. This definition is provided with the
+\texttt{apertium} package (version 2.0) which can be downloaded from
+\url{http://www.sourceforge.net}.</p><p>Its elements are described in Section \ref{formatotransfer}.</p><p>\begin{small}
+\begin{alltt}
+&lt;!\textsl{ENTITY} \% condition "(and|or|not|equal|begins-with|
+                       ends-with|contains-substring|in)"&gt;
+&lt;!\textsl{ENTITY} \% container "(var|clip)"&gt;
+&lt;!\textsl{ENTITY} \% sentence "(let|out|choose|modify-case|
+                      call-macro|append)"&gt;
+&lt;!\textsl{ENTITY} \% value "(b|clip|lit|lit-tag|var|get-case-from|
+                   case-of|concat)"&gt;
+&lt;!\textsl{ENTITY} \% stringvalue "(clip|lit|var|get-case-from|
+                         case-of)"&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{postchunk} (section-def-cats,
+                      section-def-attrs,
+                      section-def-vars,
+                      section-def-lists?,
+                      section-def-macros?,
+                      section-rules)&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{section-def-cats} (def-cat+)&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{def-cat} (cat-item+)&gt;
+&lt;!\textsl{ATTLIST} def-cat n ID \textsl{#REQUIRED}&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{cat-item} \textsl{EMPTY}&gt;
+&lt;!\textsl{ATTLIST} cat-item name CDATA \textsl{#REQUIRED}&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{section-def-attrs} (def-attr+)&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{def-attr} (attr-item+)&gt;
+&lt;!\textsl{ATTLIST} def-attr n ID \textsl{#REQUIRED}&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{attr-item} \textsl{EMPTY}&gt;
+&lt;!\textsl{ATTLIST} attr-item tags CDATA \textsl{#IMPLIED}&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{section-def-vars} (def-var+)&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{def-var} \textsl{EMPTY}&gt;
+&lt;!\textsl{ATTLIST} def-var n ID \textsl{#REQUIRED}&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{section-def-lists} (def-list)+&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{def-list} (list-item+)&gt;
+&lt;!\textsl{ATTLIST} def-list n ID \textsl{#REQUIRED}&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{list-item} \textsl{EMPTY}&gt;
+&lt;!\textsl{ATTLIST} list-item v CDATA \textsl{#REQUIRED}&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{section-def-macros} (def-macro)+&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{def-macro} (\%sentence;)+&gt;
+&lt;!\textsl{ATTLIST} def-macro n ID \textsl{#REQUIRED}&gt;
+&lt;!\textsl{ATTLIST} def-macro npar CDATA \textsl{#REQUIRED}&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{section-rules} (rule+)&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{rule} (pattern, action)&gt;
+&lt;!\textsl{ATTLIST} rule comment CDATA \textsl{#IMPLIED}&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{pattern} (pattern-item+)&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{pattern-item} \textsl{EMPTY}&gt;
+&lt;!\textsl{ATTLIST} pattern-item n \textsl{IDREF} \textsl{#REQUIRED}&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{action} (\%sentence;)*&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{choose} (when+,otherwise?)&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{when} (test,(\%sentence;)*)&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{otherwise} (\%sentence;)+&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{test} (\%condition;)+&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{and} ((\%condition;),(\%condition;)+)&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{or} ((\%condition;),(\%condition;)+)&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{not} (\%condition;)&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{equal} (\%value;,\%value;)&gt;
+&lt;!\textsl{ATTLIST} equal caseless (no|yes) \textsl{#IMPLIED}&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{begins-with} (\%value;,\%value;)&gt;
+&lt;!\textsl{ATTLIST} begins-with caseless (no|yes) \textsl{#IMPLIED}&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{ends-with} (\%value;,\%value;)&gt;
+&lt;!\textsl{ATTLIST} ends-with caseless (no|yes) \textsl{#IMPLIED}&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{contains-substring} (\%value;,\%value;)&gt;
+&lt;!\textsl{ATTLIST} contains-substring caseless (no|yes) \textsl{#IMPLIED}&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{in} (\%value;, list)&gt;
+&lt;!\textsl{ATTLIST} in caseless (no|yes) \textsl{#IMPLIED}&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{list} \textsl{EMPTY}&gt;
+&lt;!\textsl{ATTLIST} list n \textsl{IDREF} \textsl{#REQUIRED}&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{let} (\%container;, \%value;)&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{append} (\%value;)+&gt;
+&lt;!\textsl{ATTLIST} append n \textsl{IDREF} \textsl{#REQUIRED}&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{out} (b|lu|mlu)+&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{modify-case} (\%container;, \%stringvalue;)&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{call-macro} (with-param)*&gt;
+&lt;!\textsl{ATTLIST} call-macro n \textsl{IDREF} \textsl{#REQUIRED}&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{with-param} \textsl{EMPTY}&gt;
+&lt;!\textsl{ATTLIST} with-param pos CDATA \textsl{#REQUIRED}&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{clip} \textsl{EMPTY}&gt;
+&lt;!\textsl{ATTLIST} clip pos CDATA \textsl{#REQUIRED}
+               part CDATA \textsl{#REQUIRED}&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{lit} \textsl{EMPTY}&gt;
+&lt;!\textsl{ATTLIST} lit v CDATA \textsl{#REQUIRED}&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{lit-tag} \textsl{EMPTY}&gt;
+&lt;!\textsl{ATTLIST} lit-tag v CDATA \textsl{#REQUIRED}&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{var} \textsl{EMPTY}&gt;
+&lt;!\textsl{ATTLIST} var n \textsl{IDREF} \textsl{#REQUIRED}&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{get-case-from} (clip|lit|var)&gt;
+&lt;!\textsl{ATTLIST} get-case-from pos CDATA \textsl{#REQUIRED}&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{case-of} \textsl{EMPTY}&gt;
+&lt;!\textsl{ATTLIST} case-of pos CDATA \textsl{#REQUIRED}
+                  part CDATA \textsl{#REQUIRED}&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{concat} (\%value;)+&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{mlu} (lu+)&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{lu} (\%value;)+&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{b} \textsl{EMPTY}&gt;
+&lt;!\textsl{ATTLIST} b pos CDATA \textsl{#IMPLIED}&gt;</p><p>\end{alltt}
+\end{small}</p><p>\newpage</p><p>\section[DTD for the format rules]{DTD for the format specification
+rules}
+\label{ss:dtd_formato}</p><p>DTD for the format specification rules. This definition can be
+downloaded from the web page
+\url{http://cvs.sourceforge.net/viewcvs.py/apertium/apertium/apertium/format.dtd}. \nota{needs
+updating}</p><p>Its elements are described in Section \ref{ss:reglasformato}.</p><p>\begin{small}
+\begin{alltt}
+&lt;!\textsl{ELEMENT} \textbf{format} (options,rules)&gt;
+&lt;!\textsl{ATTLIST} format name \textsl{CDATA} \textsl{#REQUIRED}&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{options} (largeblocks, input, output,
+                   escape-chars, space-chars, case-sensitive)&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{largeblocks} \textsl{EMPTY}&gt;
+&lt;!\textsl{ATTLIST} largeblocks size \textsl{CDATA} \textsl{#REQUIRED}&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{input} \textsl{EMPTY}&gt;
+&lt;!\textsl{ATTLIST} input zip-path \textsl{CDATA} \textsl{#IMPLIED}
+                encoding \textsl{CDATA} \textsl{#REQUIRED}&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{output} \textsl{EMPTY}&gt;
+&lt;!\textsl{ATTLIST} output zip-path \textsl{CDATA} \textsl{#IMPLIED}
+                 encoding \textsl{CDATA} \textsl{#REQUIRED}&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{escape-chars} \textsl{EMPTY}&gt;
+&lt;!\textsl{ATTLIST} escape-chars regexp \textsl{CDATA} \textsl{#REQUIRED}&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{space-chars} \textsl{EMPTY}&gt;
+&lt;!\textsl{ATTLIST} space-chars regexp \textsl{CDATA} \textsl{#REQUIRED}&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{case-sensitive} \textsl{EMPTY}&gt;
+&lt;!\textsl{ATTLIST} case-sensitive value (yes|no) \textsl{#REQUIRED}&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{rules} (format-rule|replacement-rule)+&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{format-rule} (begin-end|(begin,end))&gt;
+&lt;!\textsl{ATTLIST} format-rule eos (yes|no) \textsl{#IMPLIED}
+                      priority \textsl{CDATA} \textsl{#REQUIRED}&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{begin-end} \textsl{EMPTY}&gt;
+&lt;!\textsl{ATTLIST} begin-end regexp \textsl{CDATA} \textsl{#REQUIRED}&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{begin} \textsl{EMPTY}&gt;
+&lt;!\textsl{ATTLIST} begin regexp \textsl{CDATA} \textsl{#REQUIRED}&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{end} \textsl{EMPTY}&gt;
+&lt;!\textsl{ATTLIST} end regexp \textsl{CDATA} \textsl{#REQUIRED}&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{replacement-rule} (replace+)&gt;
+&lt;!\textsl{ATTLIST} replacement-rule regexp \textsl{CDATA} \textsl{#REQUIRED}&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{replace} \textsl{EMPTY}&gt;
+&lt;!\textsl{ATTLIST} replace source \textsl{CDATA} \textsl{#REQUIRED}
+                  target \textsl{CDATA} \textsl{#REQUIRED}
+                  prefer (yes|no) \textsl{#IMPLIED}&gt;</p><p>\end{alltt}
+\end{small}</p><p>\newpage
+\section{DTD for the form paradigms}
+\label{ss:dtdparadigmes}</p><p>DTD for the format of the paradigm files used in the forms. This
+definition is included in the package
+\texttt{apertium-lexical-webform}.</p><p>\begin{small}
+\begin{alltt}</p><p>&lt;!\textsl{ELEMENT} \textbf{form} (entry)+&gt;</p><p>&lt;!\textsl{ATTLIST} \textbf{form}
+        lang CDATA \textsl{#REQUIRED}
+        langpair CDATA \textsl{#REQUIRED}&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{entry} (endings, paradigms)+&gt;</p><p>&lt;!\textsl{ATTLIST} \textbf{entry}
+        PoS CDATA \textsl{#REQUIRED}
+        nbr CDATA \textsl{#IMPLIED}
+        gen CDATA \textsl{#IMPLIED}&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{endings} (stem, ending+)&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{stem} (\textsl{#PCDATA})&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{ending} (\textsl{#PCDATA})&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{paradigms} (par+)&gt;</p><p>&lt;!\textsl{ATTLIST} \textbf{paradigms} howmany CDATA \textsl{#REQUIRED}&gt;</p><p>&lt;!\textsl{ELEMENT} \textbf{par} \textsl{EMPTY}&gt;</p><p>&lt;!\textsl{ATTLIST} \textbf{par} n CDATA \textsl{#REQUIRED}&gt;</p><p>\end{alltt}
+\end{small}</p><div class="navsetbottom"><span class="navleft"><form class="searchform"><input class="searchbox" style="color: #888;" type="text" value="...search manuals..." title="Enter a search string to search the manuals" onkeypress="return DoSearchKey(event, this, &quot;7.2&quot;, &quot;../&quot;);" onfocus="this.style.color=&quot;black&quot;; this.style.textAlign=&quot;left&quot;; if (this.value == &quot;...search manuals...&quot;) this.value=&quot;&quot;;" onblur="if (this.value.match(/^ *$/)) { this.style.color=&quot;#888&quot;; this.style.textAlign=&quot;center&quot;; this.value=&quot;...search manuals...&quot;; }"/></form>&nbsp;&nbsp;<a href="../index.html" title="up to the documentation top" data-pltdoc="x" onclick="return GotoPLTRoot(&quot;7.2&quot;);">top</a></span><span class="navright">&nbsp;&nbsp;<a href="Apertium-separable.html" title="backward to &quot;9 Apertium-separable&quot;" data-pltdoc="x">&larr; prev</a>&nbsp;&nbsp;<a href="index.html" title="up to &quot;Documentation of the Open-Source Shallow-Transfer
+Machine-Translation Platform Apertium&quot;" data-pltdoc="x">up</a>&nbsp;&nbsp;<a href="b.html" title="forward to &quot;11 Appendix B. Grammatical symbols used in the modules&quot;" data-pltdoc="x">next &rarr;</a></span>&nbsp;</div></div></div><div id="contextindicator">&nbsp;</div></body></html>

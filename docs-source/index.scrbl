@@ -73,8 +73,22 @@ The goal of this document is two-fold:
 
 @include-section["stream-format-spec.scrbl"]
 
+@include-section["modules-spec.scrbl"]
+
+@include-section["install-and-run.scrbl"]
+
+@include-section["maintain.scrbl"]
+
+@include-section["data-insertion.scrbl"]
+
 @include-section["../../apertium-lex-tools/docs/index.scrbl"]
 
 @include-section["../../apertium-separable/docs/index.scrbl"]
+
+@include-section["a.scrbl"]
+
+@include-section["b.scrbl"]
+
+@include-section["c.scrbl"]
 
 @(generate-bibliography)

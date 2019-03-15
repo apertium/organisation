@@ -1,2 +1,2 @@
-docs: $(wildcard apertium-platform-doc/*)
-	cd apertium-platform-doc; raco pkg install; cd .. ; raco setup -p apertium-platform-doc; cp -r apertium-platform-doc/doc/index/*.html docs/index/; cp -r apertium-platform-doc/doc/index/*.svg docs/index/; cp -r apertium-platform-doc/doc/index/*.png docs/index/
+docs: $(wildcard docs-source/*)
+	cd docs-source; raco pkg install; cd .. ; raco setup -p apertium-platform-doc; cp -r docs-source/doc/index/*.html docs/index/; cp -r docs-source/doc/index/*.svg docs/index/; cp -r docs-source/doc/index/*.png docs/index/

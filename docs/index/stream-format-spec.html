@@ -1,12 +1,13 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html><head><meta http-equiv="content-type" content="text/html; charset=utf-8"/><meta name="viewport" content="width=device-width, initial-scale=0.8"/><title>3&nbsp;Format
 specification of the data stream between modules</title><link rel="stylesheet" type="text/css" href="../scribble.css" title="default"/><link rel="stylesheet" type="text/css" href="figure.css" title="default"/><link rel="stylesheet" type="text/css" href="../manual-style.css" title="default"/><link rel="stylesheet" type="text/css" href="../manual-racket.css" title="default"/><link rel="stylesheet" type="text/css" href="../manual-racket.css" title="default"/><link rel="stylesheet" type="text/css" href="../doc-site.css" title="default"/><script type="text/javascript" src="../scribble-common.js"></script><script type="text/javascript" src="figure.js"></script><script type="text/javascript" src="../manual-racket.js"></script><script type="text/javascript" src="../manual-racket.js"></script><script type="text/javascript" src="../doc-site.js"></script><script type="text/javascript" src="file:///usr/share/doc/racket/local-redirect/local-redirect.js"></script><script type="text/javascript" src="file:///home/selimcan/.racket/7.2/doc/local-redirect/local-user-redirect.js"></script><!--[if IE 6]><style type="text/css">.SIEHidden { overflow: hidden; }</style><![endif]--></head><body id="doc-racket-lang-org"><div class="tocset"><div class="tocview"><div class="tocviewlist tocviewlisttopspace"><div class="tocviewtitle"><table cellspacing="0" cellpadding="0"><tr><td style="width: 1em;"><a href="javascript:void(0);" title="Expand/Collapse" class="tocviewtoggle" onclick="TocviewToggle(this,&quot;tocview_0&quot;);">&#9660;</a></td><td></td><td><a href="index.html" class="tocviewlink" data-pltdoc="x">Documentation of the Open-<wbr></wbr>Source Shallow-<wbr></wbr>Transfer
-Machine-<wbr></wbr>Translation Platform <span style="font-style: italic">Apertium</span></a></td></tr></table></div><div class="tocviewsublistonly" style="display: block;" id="tocview_0"><table cellspacing="0" cellpadding="0"><tr><td align="right">1&nbsp;</td><td><a href="intro.html" class="tocviewlink" data-pltdoc="x">Introduction</a></td></tr><tr><td align="right">2&nbsp;</td><td><a href="engine.html" class="tocviewlink" data-pltdoc="x">The shallow-<wbr></wbr>transfer machine
+Machine-<wbr></wbr>Translation Platform <span style="font-style: italic">Apertium</span></a></td></tr></table></div><div class="tocviewsublisttop" style="display: block;" id="tocview_0"><table cellspacing="0" cellpadding="0"><tr><td align="right">1&nbsp;</td><td><a href="intro.html" class="tocviewlink" data-pltdoc="x">Introduction</a></td></tr><tr><td align="right">2&nbsp;</td><td><a href="engine.html" class="tocviewlink" data-pltdoc="x">The shallow-<wbr></wbr>transfer machine
 translation engine</a></td></tr><tr><td align="right">3&nbsp;</td><td><a href="" class="tocviewselflink" data-pltdoc="x">Format
-specification of the data stream between modules</a></td></tr><tr><td align="right">4&nbsp;</td><td><a href="Apertium-lex-tools.html" class="tocviewlink" data-pltdoc="x">Apertium-<wbr></wbr>lex-<wbr></wbr>tools</a></td></tr><tr><td align="right">5&nbsp;</td><td><a href="Apertium-separable.html" class="tocviewlink" data-pltdoc="x">Apertium-<wbr></wbr>separable</a></td></tr><tr><td align="right"></td><td><a href="doc-bibliography.html" class="tocviewlink" data-pltdoc="x">Bibliography</a></td></tr></table></div></div></div></div><div class="maincolumn"><div class="main"><div class="versionbox"><span class="version">3.5.2</span></div><div class="navsettop"><span class="navleft"><form class="searchform"><input class="searchbox" style="color: #888;" type="text" value="...search manuals..." title="Enter a search string to search the manuals" onkeypress="return DoSearchKey(event, this, &quot;7.2&quot;, &quot;../&quot;);" onfocus="this.style.color=&quot;black&quot;; this.style.textAlign=&quot;left&quot;; if (this.value == &quot;...search manuals...&quot;) this.value=&quot;&quot;;" onblur="if (this.value.match(/^ *$/)) { this.style.color=&quot;#888&quot;; this.style.textAlign=&quot;center&quot;; this.value=&quot;...search manuals...&quot;; }"/></form>&nbsp;&nbsp;<a href="../index.html" title="up to the documentation top" data-pltdoc="x" onclick="return GotoPLTRoot(&quot;7.2&quot;);">top</a></span><span class="navright">&nbsp;&nbsp;<a href="engine.html" title="backward to &quot;2 The shallow-transfer machine
+specification of the data stream between modules</a></td></tr><tr><td align="right">4&nbsp;</td><td><a href="modules-spec.html" class="tocviewlink" data-pltdoc="x">Modules specification</a></td></tr><tr><td align="right">5&nbsp;</td><td><a href="install-and-run.html" class="tocviewlink" data-pltdoc="x">Installing and running the system</a></td></tr><tr><td align="right">6&nbsp;</td><td><a href="maintain.html" class="tocviewlink" data-pltdoc="x">Maintaining linguistic data</a></td></tr><tr><td align="right">7&nbsp;</td><td><a href="data-insertion.html" class="tocviewlink" data-pltdoc="x">Data insertion web forms</a></td></tr><tr><td align="right">8&nbsp;</td><td><a href="Apertium-lex-tools.html" class="tocviewlink" data-pltdoc="x">Apertium-<wbr></wbr>lex-<wbr></wbr>tools</a></td></tr><tr><td align="right">9&nbsp;</td><td><a href="Apertium-separable.html" class="tocviewlink" data-pltdoc="x">Apertium-<wbr></wbr>separable</a></td></tr><tr><td align="right">10&nbsp;</td><td><a href="a.html" class="tocviewlink" data-pltdoc="x">Appendix A. XML DTDs</a></td></tr><tr><td align="right">11&nbsp;</td><td><a href="b.html" class="tocviewlink" data-pltdoc="x">Appendix B. Grammatical symbols used in the modules</a></td></tr><tr><td align="right">12&nbsp;</td><td><a href="c.html" class="tocviewlink" data-pltdoc="x">Appendix C. Abbreviations used in the text</a></td></tr><tr><td align="right"></td><td><a href="doc-bibliography.html" class="tocviewlink" data-pltdoc="x">Bibliography</a></td></tr></table></div></div><div class="tocviewlist"><table cellspacing="0" cellpadding="0"><tr><td style="width: 1em;"><a href="javascript:void(0);" title="Expand/Collapse" class="tocviewtoggle" onclick="TocviewToggle(this,&quot;tocview_1&quot;);">&#9658;</a></td><td>3&nbsp;</td><td><a href="" class="tocviewselflink" data-pltdoc="x">Format
+specification of the data stream between modules</a></td></tr></table><div class="tocviewsublistbottom" style="display: none;" id="tocview_1"><table cellspacing="0" cellpadding="0"><tr><td align="right">3.1&nbsp;</td><td><a href="#%28part._.Introduction%29" class="tocviewlink" data-pltdoc="x">Introduction</a></td></tr></table></div></div></div><div class="tocsub"><div class="tocsubtitle">On this page:</div><table class="tocsublist" cellspacing="0"><tr><td><span class="tocsublinknumber">3.1<tt>&nbsp;</tt></span><a href="#%28part._.Introduction%29" class="tocsubseclink" data-pltdoc="x">Introduction</a></td></tr></table></div></div><div class="maincolumn"><div class="main"><div class="versionbox"><span class="version">3.5.2</span></div><div class="navsettop"><span class="navleft"><form class="searchform"><input class="searchbox" style="color: #888;" type="text" value="...search manuals..." title="Enter a search string to search the manuals" onkeypress="return DoSearchKey(event, this, &quot;7.2&quot;, &quot;../&quot;);" onfocus="this.style.color=&quot;black&quot;; this.style.textAlign=&quot;left&quot;; if (this.value == &quot;...search manuals...&quot;) this.value=&quot;&quot;;" onblur="if (this.value.match(/^ *$/)) { this.style.color=&quot;#888&quot;; this.style.textAlign=&quot;center&quot;; this.value=&quot;...search manuals...&quot;; }"/></form>&nbsp;&nbsp;<a href="../index.html" title="up to the documentation top" data-pltdoc="x" onclick="return GotoPLTRoot(&quot;7.2&quot;);">top</a></span><span class="navright">&nbsp;&nbsp;<a href="engine.html" title="backward to &quot;2 The shallow-transfer machine
 translation engine&quot;" data-pltdoc="x">&larr; prev</a>&nbsp;&nbsp;<a href="index.html" title="up to &quot;Documentation of the Open-Source Shallow-Transfer
-Machine-Translation Platform Apertium&quot;" data-pltdoc="x">up</a>&nbsp;&nbsp;<a href="Apertium-lex-tools.html" title="forward to &quot;4 Apertium-lex-tools&quot;" data-pltdoc="x">next &rarr;</a></span>&nbsp;</div><h3 x-source-module="(lib &quot;apertium-platform-doc/index.scrbl&quot;)" x-source-pkg="apertium-platform-doc" x-part-tag="&quot;stream-format-spec&quot;">3<tt>&nbsp;</tt><a name="(part._stream-format-spec)"></a>Format
-specification of the data stream between modules</h3><p>The format of the data that circulate between the engine&rsquo;s modules has to be
+Machine-Translation Platform Apertium&quot;" data-pltdoc="x">up</a>&nbsp;&nbsp;<a href="modules-spec.html" title="forward to &quot;4 Modules specification&quot;" data-pltdoc="x">next &rarr;</a></span>&nbsp;</div><h3 x-source-module="(lib &quot;apertium-platform-doc/index.scrbl&quot;)" x-source-pkg="docs-source" x-part-tag="&quot;stream-format-spec&quot;">3<tt>&nbsp;</tt><a name="(part._stream-format-spec)"></a>Format
+specification of the data stream between modules</h3><h4 x-source-module="(lib &quot;apertium-platform-doc/index.scrbl&quot;)" x-source-pkg="docs-source" x-part-tag="&quot;Introduction&quot;">3.1<tt>&nbsp;</tt><a name="(part._.Introduction)"></a>Introduction</h4><p>The format of the data that circulate between the engine&rsquo;s modules has to be
 specified so that document processing is more effective and transparent. The
 proposed system design (see Section \ref{ss:descrarq}) imposes the need to use
 three different data stream types, as shown in <a href="#%28counter._%28figure._fig~3afdatos%29%29" data-pltdoc="x">figure&nbsp;<span class="FigureRef">2</span></a>.</p><p>The stream format is text-based to facilitate, among other things, the
@@ -38,6 +39,304 @@ blocks of information in binary format &#8212;<wbr></wbr>RTF for instance, that 
 include bitmap images&#8212;<wbr></wbr>.  To enable an efficient processing of this
 type of documents, we designed a way to extract this information and
 restore it after translation has been performed; see
-<font class="badlink">(part "ss:formato")</font> for a complete description.</p><div class="navsetbottom"><span class="navleft"><form class="searchform"><input class="searchbox" style="color: #888;" type="text" value="...search manuals..." title="Enter a search string to search the manuals" onkeypress="return DoSearchKey(event, this, &quot;7.2&quot;, &quot;../&quot;);" onfocus="this.style.color=&quot;black&quot;; this.style.textAlign=&quot;left&quot;; if (this.value == &quot;...search manuals...&quot;) this.value=&quot;&quot;;" onblur="if (this.value.match(/^ *$/)) { this.style.color=&quot;#888&quot;; this.style.textAlign=&quot;center&quot;; this.value=&quot;...search manuals...&quot;; }"/></form>&nbsp;&nbsp;<a href="../index.html" title="up to the documentation top" data-pltdoc="x" onclick="return GotoPLTRoot(&quot;7.2&quot;);">top</a></span><span class="navright">&nbsp;&nbsp;<a href="engine.html" title="backward to &quot;2 The shallow-transfer machine
+<font class="badlink">(part "ss:formato")</font> for a complete description.</p><p>\section{Data stream without format}</p><p>Data stream without format is output by the de-formatter and by the
+generator \nota{no del tot: postgenerador}, and is used as input by
+the morphological analyser, the post-generator and the re-formatter.</p><p>In the
+subsection of this section you can find a description of the method to
+delimit \textit{superblanks} and \textit{extensive superblanks}. As an example
+we will use the HTML document in
+Figure~\ref{fg:docorig}.</p><p>\begin{figure}[htbp]
+\begin{small}
+\begin{alltt}
+&lt;\textbf{html}&gt;
+  &lt;\textbf{head}&gt;
+    &lt;\textbf{title}&gt;Title&lt;/\textbf{title}&gt;
+  &lt;/\textbf{head}&gt;
+  &lt;\textbf{body}&gt;
+    &lt;\textbf{p}&gt;Divided
+       sentence&lt;/\textbf{p}&gt;
+  &lt;/\textbf{body}&gt;
+&lt;/\textbf{html}&gt;
+\end{alltt}
+\end{small}
+\caption{Example of HTML document}
+\label{fg:docorig}
+\end{figure}</p><p>The structural elements that must include this data stream type are
+the following:</p><p>\begin{itemize}
+\item \textit{Superblanks}.  Blocks that contain segments of format
+information included in the documents, when these are short.
+\item \textit{Extensive superblanks}.  Marks that are used to specify
+external documents that include segments of format information for the
+document being processed, when these segments are long.
+\item \textit{Text}. The document text that can be translated.
+\item \textit{Artificial sentence endings}. \label{finfrase} When the
+format in the document suggests a sentence separation that is not
+signalled by any punctuation mark (for instance, titles with no full
+stop at the end, or the content of cells in a table), the format
+processing must have a mechanism (invisible for the user) that enables
+the marking of these sentence endings.
+\item \textit{Special characters protection (for non-XML stream)}.
+  Characters that must be protected to avoid conflict with the ones
+  used in the data stream format.
+\end{itemize}</p><p>% \subsection{XML format}</p><p>% En este tipo de flujo se usa el elemento \texttt{&lt;\textbf{b}&gt;} para definir los
+% superblancos y los superblancos extensos.  Para el caso de los
+% \textbf{superblancos} la sintaxis es la siguiente:</p><p>% \begin{small}
+% \begin{alltt} % &lt;\textbf{b}&gt;\textit{contenido del bloque de formato}&lt;/\textbf{b}&gt;
+% \end{alltt}
+% \end{small}</p><p>% Hay que resaltar que para los formatos basados en SGML, es necesario
+% incluir el formato en bloques \texttt{&lt;![CDATA[\ldots]]&gt;} dentro de
+% las marcas indicadas. \nota{millor dir com s&#243;n: prendre text de EAMT
+% &rsquo;05 - Gema} Por su parte, los \textit{superblancos extensos} se deben
+% expresar, a modo de atributos, de la siguiente manera:</p><p>% \begin{small}
+% \begin{alltt} % &lt;\textbf{b} \textsl{filename}="\textit{nombre de fichero}"/&gt;
+% \end{alltt}
+% \end{small}</p><p>% El \emph{texto} estar&#225; incluido entre los elementos \textbf{b} que se
+% acaban de explicar sin ninguna marca de estructura particular.</p><p>% Los \emph{finales de frase artificiales} se expresan mediante un punto y un
+% superblanco vac&#237;o inmediatamente a continuaci&#243;n.</p><p>% \begin{small}
+% \begin{alltt} % .&lt;\textbf{b}/&gt;
+% \end{alltt}
+% \end{small}</p><p>% Resumiendo, el flujo de datos de un documento en cualquier formato de los que
+% trata el traductor se reduce a otro documento XML que debe cumplir la
+% siguiente DTD:</p><p>% \begin{small}
+% \begin{alltt} % &lt;!\textsl{ELEMENT} \textbf{document} (b|\textsl{#PCDATA})*&gt;
+% &lt;!\textsl{ELEMENT} \textbf{b} (\textsl{#PCDATA}?)&gt;
+% &lt;!\textsl{ATTLIST} b filename \textsl{CDATA} \textsl{#IMPLIED}&gt;
+% \end{alltt}
+% \end{small}</p><p>% El resultado de encapsular el formato del fichero de la
+% figura~\ref{fg:docorig} en el flujo con formato XML se ve en la
+% figura~\ref{fg:docorigXML}.  Si hubiese alg&#250;n superblanco que por su longitud
+ % se convirtiese en un superblanco extenso, la forma de especificarlo ser&#237;a como sigue:
+% \begin{small}
+% \begin{alltt} % &lt;\textbf{b} \textsl{filename}="/tmp/ficherotemporal"/&gt;
+% \end{alltt}
+% \end{small}donde \texttt{"/tmp/ficherotemporal"} es un fichero que
+% contiene el superblanco extenso para que pueda ser recuperado por el reformateador.</p><p>% \begin{figure}
+% \begin{small}
+% \begin{alltt} % &lt;?\textbf{xml} \textsl{version}="1.0" \textsl{encoding}="iso-8859-15"?&gt;
+% &lt;\textbf{document}&gt;
+% &lt;\textbf{b}&gt;&lt;![CDATA[&lt;html&gt; % &lt;head&gt;
+ % &lt;title&gt;]]&gt;&lt;/\textbf{b}&gt;T&#237;tulo.&lt;\textbf{b}/&gt;&lt;\textbf{b}&gt;&lt;![CDATA[&lt;/title&gt;
+% &lt;/head&gt; % &lt;body&gt; % &lt;p&gt;]]&gt;&lt;/\textbf{b}&gt;Frase&lt;\textbf{b}&gt;&lt;![CDATA[
+% ]]&gt;&lt;/\textbf{b}&gt;dividida.&lt;\textbf{b}/&gt;&lt;\textbf{b}&gt;&lt;![CDATA[ % &lt;/body&gt;
+% &lt;/html&gt;]]&gt;&lt;/\textbf{b}&gt; % &lt;/\textbf{document}&gt;
+% \end{alltt}
+% \end{small}
+% \caption{El documento de la figura \protect\ref{fg:docorig} con el
+% formato encapsulado usando marcas en XML y segmentos
+%\texttt{&lt;![CDATA[\ldots]]&gt;}}
+% \label{fg:docorigXML}
+% \end{figure}</p><p>%\subsection{Formato no XML}
+\subsection{Stream format}
+\label{se:noxml1} This format is based on the one used in the machine
+translation systems \textsf{interNOSTRUM}
+\cite{canals01b,garridoalenda01p,garrido99j} and \textsf{Traductor
+Universia} \cite{garrido03p, gilabert03j}.</p><p>In this stream type, the characters \texttt{[} and \texttt{]} are used
+to indicate \emph{superblanks}, as shown in the following example:</p><p>\begin{small}
+\begin{alltt}
+[\textit{superblank content}]
+\end{alltt}
+\end{small}</p><p>In the case of \emph{extensive superblanks}, the file name is
+specified using the at sign \texttt{@}:</p><p>\begin{small}
+\begin{alltt}
+[@\textit{file name}]
+\end{alltt}
+\end{small}</p><p>The \emph{text} is outside the superblank marks.</p><p>\emph{Artificial sentence endings}
+are expressed by a full stop and an empty superblank right after it.</p><p>\begin{small}
+\begin{alltt}
+.[]
+\end{alltt}
+\end{small}</p><p>The following table shows the \textbf{protected characters}:</p><p>\begin{center}
+\begin{tabular}{|l|c|c|l|} \hline Name &amp; Character &amp; Protected form&amp;
+Meaning \\
+\hline
+At &amp; \texttt{@} &amp; \verb!\@! &amp; External superblank\\
+Slash &amp; \texttt{/} &amp; \verb!\/! &amp; Divider of meanings\\
+Backslash &amp; \verb!\! &amp; \verb!\\! &amp; Protection character \\
+Caret &amp; \verb!^! &amp; \verb!\^! &amp; Beginning of LF\\
+Opening square bracket &amp; \texttt{[} &amp; \verb!\[! &amp; Beginning of blank\\
+Closing square bracket &amp; \texttt{]} &amp; \verb!\]! &amp; End of blank \\
+Dollar &amp; \verb!$! &amp; \verb!\$! &amp; End of LF\\
+Greater than &amp; \texttt{&gt;} &amp; \verb!\&gt;! &amp; Begin. of morph. symbol\\
+Less than &amp; \texttt{&lt;} &amp; \verb!\&lt;! &amp; End of morph. symbol \\
+\hline
+\end{tabular}
+\end{center}</p><p>Figure ~\ref{fg:docorigtext} shows the document in Figure
+~\ref{fg:docorig} after encapsulation.</p><p>\begin{figure}[here]
+\begin{small}
+\begin{alltt}
+[&lt;html&gt;
+  &lt;head&gt;
+    &lt;title&gt;]Title.[][&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p&gt;]Divided[
+       ]sentence.[][&lt;/p&gt;
+  &lt;/body&gt;
+&lt;html&gt;]
+\end{alltt}
+\end{small}
+\caption{The document in Figure \protect\ref{fg:docorig} with format
+encapsulated using square brackets}
+\label{fg:docorigtext}
+\end{figure}</p><p>\section{Segmented data stream}</p><p>Segmented data stream is the stream that circulates between the
+modules that handle linguistic information in the translation engine.
+In this stream, words are delimited and labelled.  There are two types
+of segmented stream:</p><p>\begin{itemize}
+\item \textit{Ambiguous segmented stream}. Its main characteristic is
+that words have a surface form and potentially more than one lexical
+form (lexical multiform).  This stream type is the format in which
+the morphological analyser provides the input data for the
+part-of-speech tagger (see diagram \ref{eq:formaanalizada} in page
+~\pageref{formaanalizada} for a detailed description of ambiguous
+segmented stream).</p><p>\item \textit{Unambiguous segmented stream}.  It has only one lexical
+form for each word and it does not include the surface form.  This is
+the format in which data circulate from the part-of-speech tagger to
+the transfer module, and from this module to the generator (see
+diagram \ref{eq:formaanalizada2} in page~\pageref{formaanalizada2} for
+a detailed description of the format of unambiguous segmented stream).
+\end{itemize}</p><p>Furthermore, besides the information already marked in the data stream
+without format, the new stream has to enable marking of the following
+information:</p><p>\begin{itemize}
+\item \textit{Lexical units}.  A lexical unit is made of a surface
+form (in the case of ambiguous segmented stream) plus one or more
+lexical forms (the different possible analyses of the SF) with their
+grammatical symbols.
+\item \textit{Surface forms (ambiguous segmented stream)}.  The word
+as it appears in the original text.
+\item \textit{Lexical forms}.  The lemma of the word and its
+grammatical symbols.
+\item \textit{Grammatical symbols}.  They describe the morphological
+and grammatical attributes of a surface form.
+\end{itemize}</p><p>% \subsection{XML format}</p><p>% Las \textit{palabras} se etiquetan de la forma que se muestra a
+% continuaci&#243;n:</p><p>% \begin{small}
+% \begin{alltt} % &lt;\textbf{w}&gt;\textit{informaci&#243;n de la palabra}&lt;/\textbf{w}&gt;
+% \end{alltt}
+% \end{small}</p><p>% Para el caso del \textit{flujo de datos segmentado ambiguo}, la
+% \textit{forma superficial} se indica en el interior de un elemento
+% \texttt{&lt;\textbf{w}&gt;} mediante el contenido de un &#250;nico elemento
+%\texttt{&lt;\textbf{sf}&gt;}.  A continuaci&#243;n, se sit&#250;an la forma o
+%\textit{formas l&#233;xicas} que sean necesarias:</p><p>% \begin{small}
+% \begin{alltt} % &lt;\textbf{w}&gt; % &lt;\textbf{sf}&gt;\textit{forma superficial}&lt;/\textbf{sf}&gt;
+% &lt;\textbf{lf}&gt;\textit{forma l&#233;xica 1}&lt;/\textbf{lf}&gt;
+% &lt;\textbf{lf}&gt;\textit{forma l&#233;xica 2 (opcional)}&lt;/\textbf{lf}&gt;
+% ...  % &lt;/\textbf{w}&gt;
+% \end{alltt}
+% \end{small}</p><p>% Para el caso del flujo no ambiguo, s&#243;lo se especifica una &#250;nica forma l&#233;xica.</p><p>% \begin{small}
+% \begin{alltt} % &lt;\textbf{w}&gt; % &lt;\textbf{lf}&gt;\textit{forma l&#233;xica}&lt;/\textbf{lf}&gt; % &lt;/\textbf{w}&gt;
+% \end{alltt}
+% \end{small}</p><p>% %% \pagebreak</p><p>% La DTD de este flujo de datos para textos \textit{sin desambiguar} es la % que se muestra en la figura~\ref{fg:ambdtd} a continuaci&#243;n.</p><p>% \begin{figure}[here]
+% \begin{small}
+% \begin{alltt}
+%   &lt;!\textsl{ELEMENT} \textbf{document} (b|w|\textsl{#PCDATA})*&gt;
+%   &lt;!&ndash; atenci&#243;n, el #PCDATA anterior sigue siendo necesario para los
+%        car&#225;cteres no etiquetados y que no forman parte del formato &ndash;&gt;
+%   &lt;!\textsl{ELEMENT} \textbf{b} (\textsl{#PCDATA}?)&gt;
+%   &lt;!\textsl{ATTLIST} b filename \textsl{CDATA} \textsl{#IMPLIED}&gt;
+%   &lt;!\textsl{ELEMENT} \textbf{w} (sf,lf+)&gt;
+%   &lt;!\textsl{ELEMENT} \textbf{sf} (\textsl{#PCDATA})&gt;
+%   &lt;!\textsl{ELEMENT} \textbf{lf} (\textsl{#PCDATA}|s)+&gt;
+%   &lt;!\textsl{ELEMENT} \textbf{s} \textsl{EMPTY}&gt;
+%   &lt;!\textsl{ATTLIST} s n \textsl{IDREF #REQUIRED}&gt;
+% \end{alltt}
+% \end{small}
+% \caption{DTD para textos no desambiguados con formato XML}
+% \label{fg:ambdtd}
+% \end{figure}</p><p>% Para los ya \textit{ desambiguados}, los textos deben cumplir la DTD de la figura~\ref{fg:desambdtd}.</p><p>% \begin{alltt}
+%   &lt;!\textsl{ELEMENT} \textbf{document} (b|w|\textsl{#PCDATA})*&gt;
+%   &lt;!&ndash; atenci&#243;n, el #PCDATA anterior sigue siendo necesario para los
+%        car&#225;cteres no etiquetados y que no forman parte del formato &ndash;&gt;
+%   &lt;!\textsl{ELEMENT} \textbf{b} (\textsl{#PCDATA}?)&gt;
+%   &lt;!\textsl{ATTLIST} b filename \textsl{CDATA} \textsl{#IMPLIED}&gt;
+%   &lt;!\textsl{ELEMENT} \textbf{w} (lf)&gt;
+%   &lt;!\textsl{ELEMENT} \textbf{lf} (\textsl{#PCDATA}|s)+&gt;
+%   &lt;!\textsl{ELEMENT} \textbf{s} \textsl{EMPTY}&gt;
+%   &lt;!\textsl{ATTLIST} s n \textsl{IDREF #REQUIRED}&gt;
+% \end{alltt}
+% \end{small}
+% \caption{DTD para textos desambiguados con formato XML}
+% \label{fg:desambdtd}
+% \end{figure}</p><p>% La figura~\ref{fg:docorigXML2} muestra un ejemplo de segmentaci&#243;n del flujo
+% que incluye la forma de encapsular el formato y la informaci&#243;n l&#233;xica.  Este
+% ejemplo es para el caso de flujo segmentado ambiguo y corresponde al texto
+% HTML original de la figura~\ref{fg:docorig}.</p><p>% \begin{figure}[htbp]
+% \begin{small}
+% \begin{alltt}
+% &lt;?\textbf{xml} \textsl{version}="1.0" \textsl{encoding}="iso-8859-15"?&gt;
+% &lt;document&gt;
+% &lt;\textbf{b}&gt;&lt;![CDATA[&lt;html&gt;
+%   &lt;head&gt;
+%     &lt;title&gt;]]&gt;&lt;/\textbf{b}&gt;
+% &lt;\textbf{w}&gt;
+%   &lt;\textbf{sf}&gt;T&#237;tulo&lt;\textbf{sf}&gt;
+%   &lt;\textbf{lf}&gt;T&#237;tulo&lt;\textbf{s} \textsl{n}="n"/&gt;&lt;\textbf{s} \textsl{n}="m"/&gt;&lt;\textbf{s} \textsl{n}="sg"/&gt;&lt;/\textbf{lf}&gt;
+% &lt;/\textbf{w}&gt;
+% &lt;\textbf{w}&gt;
+%   &lt;\textbf{sf}&gt;.&lt;/\textbf{sf}&gt;
+%   &lt;\textbf{lf}&gt;.&lt;s n="sent"/&gt;&lt;/\textbf{lf}&gt;
+% &lt;/\textbf{w}&gt;&lt;\textbf{b}/&gt;
+% &lt;\textbf{b}&gt;&lt;![CDATA[&lt;/title&gt;
+%   &lt;/head&gt;
+%   &lt;body&gt;
+%     &lt;p&gt;]]&gt;&lt;/\textbf{b}&gt;
+% &lt;\textbf{w}&gt;
+%   &lt;\textbf{sf}&gt;Frase&lt;/\textbf{sf}&gt;
+%   &lt;\textbf{lf}&gt;Frase&lt;s n="n"/&gt;&lt;s n="f"/&gt;&lt;s n="sg"/&gt;&lt;/\textbf{lf}&gt;
+% &lt;/\textbf{w}&gt;
+% &lt;\textbf{b}&gt;&lt;![CDATA[
+%        ]]&gt;&lt;/\textbf{b}&gt;
+% &lt;\textbf{w}&gt;
+%   &lt;\textbf{sf}&gt;dividida&lt;/\textbf{sf}&gt;
+%   &lt;\textbf{lf}&gt;dividir&lt;s n="vblex"/&gt;&lt;s n="pp"/&gt;&lt;s n="f"/&gt;&lt;s n="sg"/&gt;&lt;/\textbf{lf}&gt;
+% &lt;/\textbf{w}&gt;
+% &lt;\textbf{w}&gt;
+%   &lt;\textbf{sf}&gt;.&lt;/\textbf{sf}&gt;
+%   &lt;\textbf{lf}&gt;.&lt;s n="sent"/&gt;&lt;/\textbf{lf}&gt;
+% &lt;/\textbf{w}&gt;&lt;\textbf{b}/&gt;
+% &lt;\textbf{b}&gt;&lt;![CDATA[
+%   &lt;/body&gt;
+% &lt;html&gt;]]&gt;&lt;/\textbf{b}&gt;
+% &lt;/document&gt;
+% \end{alltt}
+% \end{small}
+% \caption{Ejemplo de flujo segmentado con el formato encapsulado en XML,
+%   correspondiente al documento HTML de la figura~\ref{fg:docorig}.}
+% \label{fg:docorigXML2}
+% \end{figure}
+%\subsection{Formato no XML}
+%\subsubsection{Formato de flujo}
+\label{se:noxml2} The symbols &rsquo;\verb!^!&rsquo; for word beginning and
+&rsquo;\verb!$!&rsquo; for word end are used to delimit \textit{words}, as shown
+in this example:</p><p>\begin{small}
+\begin{alltt}
+  \verb!^!\textit{word}\verb!$!
+\end{alltt}
+\end{small}</p><p>To separate the \textit{surface form} and the following
+\textit{lexical forms}, the symbol \texttt{/} is used.  This separator
+only has sense in the ambiguous segmented stream, since in the
+unambiguous stream there is only the lexical form.  It is used as
+follows:</p><p>\begin{small}
+\begin{alltt}
+  \verb!^!\textit{surface form}/\textit{lexical form 1}/...\verb!$!
+\end{alltt}
+\end{small}</p><p>Lexical forms can include symbols (generally located at the end), as
+shown in the example of Figure \ref{fg:docorigtext2}.</p><p>\begin{figure}
+\begin{small}
+\begin{alltt}
+[&lt;html&gt;
+   &lt;head&gt;
+     &lt;title&gt;]^Title/Title&lt;n&gt;&lt;m&gt;&lt;sg&gt;\$^./.&lt;sent&gt;\$[][&lt;/title&gt;
+   &lt;/head&gt;
+   &lt;body&gt;
+     &lt;p&gt;]^Divided/Divide&lt;vblex&gt;&lt;pp&gt;/Divided&lt;vblex&gt;&lt;past&gt;\$[
+        ]^sentence/sentence&lt;n&gt;&lt;sg&gt;/sentence&lt;vblex&gt;&lt;inf&gt;\$^./.\\&lt;sent&gt;\$[][&lt;/p&gt;
+  &lt;/body&gt;
+&lt;html&gt;]
+\end{alltt}
+\end{small}
+\caption{Example of segmented stream with format encapsulated in
+non-XML format, corresponding to the HTML document in Figure
+~\ref{fg:docorig}.}
+\label{fg:docorigtext2}
+\end{figure}</p><div class="navsetbottom"><span class="navleft"><form class="searchform"><input class="searchbox" style="color: #888;" type="text" value="...search manuals..." title="Enter a search string to search the manuals" onkeypress="return DoSearchKey(event, this, &quot;7.2&quot;, &quot;../&quot;);" onfocus="this.style.color=&quot;black&quot;; this.style.textAlign=&quot;left&quot;; if (this.value == &quot;...search manuals...&quot;) this.value=&quot;&quot;;" onblur="if (this.value.match(/^ *$/)) { this.style.color=&quot;#888&quot;; this.style.textAlign=&quot;center&quot;; this.value=&quot;...search manuals...&quot;; }"/></form>&nbsp;&nbsp;<a href="../index.html" title="up to the documentation top" data-pltdoc="x" onclick="return GotoPLTRoot(&quot;7.2&quot;);">top</a></span><span class="navright">&nbsp;&nbsp;<a href="engine.html" title="backward to &quot;2 The shallow-transfer machine
 translation engine&quot;" data-pltdoc="x">&larr; prev</a>&nbsp;&nbsp;<a href="index.html" title="up to &quot;Documentation of the Open-Source Shallow-Transfer
-Machine-Translation Platform Apertium&quot;" data-pltdoc="x">up</a>&nbsp;&nbsp;<a href="Apertium-lex-tools.html" title="forward to &quot;4 Apertium-lex-tools&quot;" data-pltdoc="x">next &rarr;</a></span>&nbsp;</div></div></div><div id="contextindicator">&nbsp;</div></body></html>
+Machine-Translation Platform Apertium&quot;" data-pltdoc="x">up</a>&nbsp;&nbsp;<a href="modules-spec.html" title="forward to &quot;4 Modules specification&quot;" data-pltdoc="x">next &rarr;</a></span>&nbsp;</div></div></div><div id="contextindicator">&nbsp;</div></body></html>
