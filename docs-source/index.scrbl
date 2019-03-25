@@ -85,6 +85,8 @@ The goal of this document is two-fold:
 
 @include-section["../../apertium-separable/docs/index.scrbl"]
 
+@include-section["best.scrbl"]
+
 @include-section["a.scrbl"]
 
 @include-section["b.scrbl"]
