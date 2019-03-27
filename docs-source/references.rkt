@@ -62,18 +62,42 @@
 (define garridoalenda01p
   (make-bib
    #:title "MorphTrans: un lenguaje y un compilador para especificar y
-       generar m\'odulos de transferencia morfol\'ogica para sistemas
-       de traducci\'on autom\'atica"
+       generar módulos de transferencia morfológica para sistemas
+       de traducción automática"
    #:author (authors (author-name "Alicia" "Garrido-Alenda")
-		     (author-name "Mikel L." "Forcada"))))
+		     (author-name "Mikel L." "Forcada"))
+   #:location (journal-location "Procesamiento del Lenguaje Natural"
+				#:pages '(157 164)
+				#:volume 27)
+   #:date 2001))
 
 (define garrido99j
   (make-bib
    #:title "A compiler for morphological analysers and generators based on finite-state transducers"
-   #:author (authors (author-name "Alicia" "Garrido-Alenda"))))
+   #:author (authors (author-name "A." "Garrido")
+		     (author-name "A." "Iturraspe")
+		     (author-name "S." "Montserrat")
+		     (author-name "H." "Pastor")
+		     (author-name "M.L." "Forcada"))
+   #:location (journal-location "Procesamiento del Lenguaje Natural"
+				#:pages '(93 98)
+				#:volume 25)
+   #:date 1999))
 
 (define gilabert03j
   (make-bib
-
    #:title "Construcción rápida de un sistema de traducción
-           automática español-portugués partiendo de un sistema español--catalán"))
+           automática español-portugués partiendo de un sistema español--catalán"
+   #:author (authors (author-name "Patrícia Gilabert" "Zarco")
+		     (author-name "Javier" "Herrero-Vicente")
+		     (author-name "Sergio" "Ortiz-Rojas")
+		     (author-name "Antonio" "Pertusa-Ibáñez")
+		     (author-name "Gema" "Ramírez-Sánchez")
+		     (author-name "Felipe" "Sánchez-Martínez")
+		     (author-name "Marcial" "Samper-Asensio")
+		     (author-name "Míriam A." "Scalco")
+		     (author-name "Mikel L." "Forcada"))
+   #:location (journal-location "Procesamiento del Lenguaje Natural"
+				#:pages '(279 285)
+				#:volume 32)
+   #:date 2003))

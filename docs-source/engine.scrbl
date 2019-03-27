@@ -29,7 +29,7 @@ finite-state transducers for lexical processing, hidden Markov models for
 part-of-speech tagging and finite-state-based chunking for structural transfer.
 
 The translation engine consists of an 8-module @emph{assembly line}, which is
-represented in Figure \ref{fg:modules}.  To ease diagnosis and independent
+represented in @Figure-ref["fig:modules"]. To ease diagnosis and independent
 testing, modules communicate between them using text streams.  This way, the
 input and output of the modules can be checked at any moment and, when an error
 in the translation process is detected, it is easy to test the output of each
