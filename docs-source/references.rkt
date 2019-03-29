@@ -101,3 +101,12 @@
 				#:pages '(279 285)
 				#:volume 32)
    #:date 2003))
+
+(define ide00
+  (make-bib #:title "The XML Framework and Its Implications for the Development
+                     of Natural Language Processing Tools"
+	    #:author (authors (author-name "N." "Ide"))
+	    #:location (proceedings-location "Proceedings of the COLING Workshop on Using
+                                       Toolsets and Architectures to Build NLP Systems,
+                                       Luxembourg")
+	    #:date 2000))

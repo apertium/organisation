@@ -1,6 +1,8 @@
 #lang scribble/manual
 
-@(require scriblib/figure "references.rkt")
+@(require scriblib/figure scriblib/footnote "references.rkt")
+
+@define-footnote[footnote make-footnote]
 
 @title[#:tag "engine" #:version "3.5.2"]{The shallow-transfer machine
 translation engine}
@@ -28,31 +30,39 @@ approach with very interesting results. The Apertium architecture uses
 finite-state transducers for lexical processing, hidden Markov models for
 part-of-speech tagging and finite-state-based chunking for structural transfer.
 
-The translation engine consists of an 8-module @emph{assembly line}, which is
-represented in @Figure-ref["fig:modules"]. To ease diagnosis and independent
-testing, modules communicate between them using text streams.  This way, the
-input and output of the modules can be checked at any moment and, when an error
-in the translation process is detected, it is easy to test the output of each
-module separately to track down the origin of the error. At the same time,
-communication via text allows for some of the modules to be used in isolation,
-independently from the rest of the MT system, for other natural-language
-processing tasks, and enables the construction of prototypes with modified or
-additional modules.
+The translation engine consists of an 8-to-12 module @emph{assembly line},
+which is represented in @Figure-ref["fig:modules"]. To ease diagnosis and
+independent testing, modules communicate between them using text streams.  This
+way, the input and output of the modules can be checked at any moment and, when
+an error in the translation process is detected, it is easy to test the output
+of each module separately to track down the origin of the error. At the same
+time, communication via text allows for some of the modules to be used in
+isolation, independently from the rest of the MT system, for other
+natural-language processing tasks, and enables the construction of prototypes
+with modified or additional modules.
 
 We decided to encode linguistic data files in
-XML\footnote{\url{http://www.w3.org/XML/}}-based formats due to its
+XML@footnote{@url{http://www.w3.org/XML/}}-based formats due to its
 interoperability, its independence of the character set and the availability of
 many tools and libraries that make easy the analysis of data in this format. As
-stated in \cite{ide00}, XML is the emerging standard for data representation
+stated in @~cite[ide00], XML is the emerging standard for data representation
 and exchange in Internet. Technologies around XML include very powerful
 mechanisms for accessing and editing XML documents, which will probably have a
 significant impact on the development of tools for natural language processing
 and annotated corpora.
 
-@figure["fig:modules" "The eight modules that build the assembly line
-        of the shallow-transfer machine translation system."
-        @image["Apertium_system_architecture.png"] #:style
-        center-figure-style ]
+@figure["fig:modules" "The modules that build the assembly line of the
+        shallow-transfer machine translation system. Many monolingual packages
+        in Apertium have both a statistical and Constraint Grammar-based
+        morphological disambiguator. The 'discontiguous multioword processing'
+        module has been introduced in 2018 and is optional. The current
+        'lexical selection module' has been added in 2012. The number and type
+        of structural transfer modules can vary from a single 'chunker' module,
+        to a three-stage, 'chunker-interchunk-postchunk' structural transfer
+        with several modules at each stage."
+	
+	@image["Apertium_system_architecture.png" #:scale 0.3] #:style
+	center-figure-style ]
 
 The modules Apertium consists of are the following:
 
@@ -216,3 +226,5 @@ single compiler, based on a class of \emph{finite-state transducers}
 \cite{garrido99j}, in particular, letter transducers
 \cite{roche97,ortiz05j}; its characteristics are described in Section
 \ref{se:compiladoresdic}.
+
+@make-footnote[]
