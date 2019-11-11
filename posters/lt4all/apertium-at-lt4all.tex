@@ -80,7 +80,7 @@
 \texttt{www.apertium.org}}
  \author[Forcada, M.L. \& Tyers, F.M.]{\textbf{Mikel L. Forcada$^1$ \and Francis M.\ Tyers$^2$}}
 
-\institute[mlf@ua.es, francis.tyers@uit.no]{$^1$Departament de Llenguatges i Sistemes Inform{\`{a}}tics, Universitat d'Alacant, E-03690 Sant Vicent del Raspeig (Spain) \\ $^2$HSL-fakultehta, UiT Norgga árktalas universitehta, N-9018 Romsa (Norway) }
+\institute[mlf@ua.es, ftyers@iu.edu]{$^1$Departament de Llenguatges i Sistemes Inform{\`{a}}tics, Universitat d'Alacant, E-03690 Sant Vicent del Raspeig (Spain) \\ $^2$Russian and East European Institute, Indiana University, IN 47405, U.S.A. }
 \newcommand{\Pair}[2]{\texttt{#1}\(\leftrightarrow\)\texttt{#2}}
 \newcommand{\pair}[2]{\texttt{#1}\(\to\)\texttt{#2}}
 
@@ -93,7 +93,7 @@
 \begin{block}{Apertium components}
 \textbf{Since 2005}, Apertium provides:
 \begin{enumerate}
-\item A free/open-source, modular, shallow-transfer, language-independent machine translation \textbf{engine} with:  text format management, finite-state lexical processing, statistical and constraint-based lexical disambiguation, and shallow structural transfer based on finite-state pattern matching 
+\item A free/open-source, modular, shallow/deep transfer, language-independent machine translation \emph{engine} with: text format management, finite-state lexical processing, statistical and constraint-based lexical disambiguation, discontiguous multi-word assembly and disassembly, anaphora resolution, and shallow structural transfer based on finite-state pattern matching 
 \item Free/open-source \textbf{linguistic data} in well-specified XML formats for a   variety of languages and language pairs 
 \item Free/open-source tools: \textbf{compilers} to turn linguistic
   data into a fast and compact form used by the engine and software to
@@ -138,7 +138,7 @@ Most of the engine developed inside Apertium but some external technologies used
 \end{block}
 
 \begin{block}{Licensing: free/open-source}
-Apertium language data and code are both licensed under the GNU General Public License:\begin{itemize}
+Apertium language data and code are both licensed under the GNU GPL:\begin{itemize}
 \item a free/open-source license allowing free distribution of unmodified and modified versions
 \item a \textit{copylefted} license: it avoids private appropriation and encourages giving improvements back to the project (a \textit{commons}) \(\to\) \textbf{community}
 \end{itemize}
@@ -172,12 +172,11 @@ Apertium language data and code are both licensed under the GNU General Public L
 \end{block}
 
 \begin{block}{Ready-to-use Apertium products}
-\begin{itemize}
-  \item a stand-alone Java application for the desktop: \texttt{apertium-caffeine}
+\begin{itemize}\itemsep 0ex
+  \item Available as a PPA repository for GNU/Linux users.
+  \item Stand-alone applications for the desktop: \texttt{apertium-caffeine} (Java), \textit{Apertium Simpleton} (Windows,MacOS).
   \item an Android version for handhelds
-  \item a stand-alone version (\textit{Apertium Simpleton}) for Windows and MacOS.
   \item a plug-in for the OmegaT CAT platform \texttt{apertium-omegat}
-\item Available as an PPA repository for GNU/Linux users.
 \end{itemize}
 \end{block}
 
