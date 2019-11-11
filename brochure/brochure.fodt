@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <office:document xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rpt="http://openoffice.org/2005/report" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:officeooo="http://openoffice.org/2009/office" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:css3t="http://www.w3.org/TR/css3-text/" office:version="1.2" office:mimetype="application/vnd.oasis.opendocument.text">
- <office:meta><meta:creation-date>2017-05-17T10:46:54.035382590</meta:creation-date><dc:date>2019-11-11T18:50:23.201071884</dc:date><meta:editing-duration>PT1H26M50S</meta:editing-duration><meta:editing-cycles>15</meta:editing-cycles><meta:generator>LibreOffice/5.1.6.2$Linux_X86_64 LibreOffice_project/10m0$Build-2</meta:generator><meta:document-statistic meta:table-count="0" meta:image-count="3" meta:object-count="0" meta:page-count="2" meta:paragraph-count="58" meta:word-count="594" meta:character-count="4309" meta:non-whitespace-character-count="3794"/></office:meta>
+ <office:meta><meta:creation-date>2017-05-17T10:46:54.035382590</meta:creation-date><dc:date>2019-11-11T19:11:19.115879976</dc:date><meta:editing-duration>PT1H47M45S</meta:editing-duration><meta:editing-cycles>16</meta:editing-cycles><meta:generator>LibreOffice/5.1.6.2$Linux_X86_64 LibreOffice_project/10m0$Build-2</meta:generator><meta:print-date>2019-11-11T18:51:18.146496505</meta:print-date><meta:document-statistic meta:table-count="0" meta:image-count="3" meta:object-count="0" meta:page-count="2" meta:paragraph-count="58" meta:word-count="594" meta:character-count="4309" meta:non-whitespace-character-count="3794"/></office:meta>
  <office:settings>
   <config:config-item-set config:name="ooo:view-settings">
-   <config:config-item config:name="ViewAreaTop" config:type="long">38312</config:config-item>
+   <config:config-item config:name="ViewAreaTop" config:type="long">6735</config:config-item>
    <config:config-item config:name="ViewAreaLeft" config:type="long">0</config:config-item>
    <config:config-item config:name="ViewAreaWidth" config:type="long">30117</config:config-item>
    <config:config-item config:name="ViewAreaHeight" config:type="long">11908</config:config-item>
@@ -14,11 +14,11 @@
     <config:config-item-map-entry>
      <config:config-item config:name="ViewId" config:type="string">view2</config:config-item>
      <config:config-item config:name="ViewLeft" config:type="long">6558</config:config-item>
-     <config:config-item config:name="ViewTop" config:type="long">41028</config:config-item>
+     <config:config-item config:name="ViewTop" config:type="long">41025</config:config-item>
      <config:config-item config:name="VisibleLeft" config:type="long">0</config:config-item>
-     <config:config-item config:name="VisibleTop" config:type="long">38312</config:config-item>
+     <config:config-item config:name="VisibleTop" config:type="long">6735</config:config-item>
      <config:config-item config:name="VisibleRight" config:type="long">30115</config:config-item>
-     <config:config-item config:name="VisibleBottom" config:type="long">50218</config:config-item>
+     <config:config-item config:name="VisibleBottom" config:type="long">18641</config:config-item>
      <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
      <config:config-item config:name="ViewLayoutColumns" config:type="short">1</config:config-item>
      <config:config-item config:name="ViewLayoutBookMode" config:type="boolean">false</config:config-item>
@@ -56,7 +56,7 @@
    <config:config-item config:name="MathBaselineAlignment" config:type="boolean">true</config:config-item>
    <config:config-item config:name="AddFrameOffsets" config:type="boolean">false</config:config-item>
    <config:config-item config:name="IsLabelDocument" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="PrinterName" config:type="string"/>
+   <config:config-item config:name="PrinterName" config:type="string">Hewlett-Packard-HP-LaserJet-Professional-P1102w</config:config-item>
    <config:config-item config:name="OutlineLevelYieldsNumbering" config:type="boolean">false</config:config-item>
    <config:config-item config:name="IgnoreFirstLineIndentInNumbering" config:type="boolean">false</config:config-item>
    <config:config-item config:name="UpdateFromTemplate" config:type="boolean">true</config:config-item>
@@ -108,7 +108,7 @@
    <config:config-item config:name="LoadReadonly" config:type="boolean">false</config:config-item>
    <config:config-item config:name="DoNotCaptureDrawObjsOnPage" config:type="boolean">false</config:config-item>
    <config:config-item config:name="CurrentDatabaseCommand" config:type="string"/>
-   <config:config-item config:name="PrinterSetup" config:type="base64Binary"/>
+   <config:config-item config:name="PrinterSetup" config:type="base64Binary">wQH+/0hld2xldHQtUGFja2FyZC1IUC1MYXNlckpldC1Qcm9mZXNzaW9uYWwtUDExMDJ3AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ1VQUzpIZXdsZXR0LVBhY2thcmQtSFAtTGFzZXJKZQAWAAMA4wAAAAAAAwAEAAhSAAAEdAAASm9iRGF0YSAxCnByaW50ZXI9SGV3bGV0dC1QYWNrYXJkLUhQLUxhc2VySmV0LVByb2Zlc3Npb25hbC1QMTEwMncKb3JpZW50YXRpb249UG9ydHJhaXQKY29waWVzPTEKY29sbGF0ZT1mYWxzZQptYXJnaW5kYWp1c3RtZW50PTAsMCwwLDAKY29sb3JkZXB0aD0yNApwc2xldmVsPTAKcGRmZGV2aWNlPTEKY29sb3JkZXZpY2U9MApQUERDb250ZXhEYXRhCklucHV0U2xvdDpBdXRvAFBhZ2VTaXplOkE0AAASAENPTVBBVF9EVVBMRVhfTU9ERQ4ARFVQTEVYX1VOS05PV04=</config:config-item>
    <config:config-item config:name="ClipAsCharacterAnchoredWriterFlyFrames" config:type="boolean">false</config:config-item>
   </config:config-item-set>
  </office:settings>
@@ -530,7 +530,7 @@
    <style:graphic-properties style:vertical-pos="from-top" style:horizontal-pos="from-left" style:horizontal-rel="paragraph" style:mirror="none" fo:clip="rect(0cm, 0cm, 0cm, 0cm)" draw:luminance="0%" draw:contrast="0%" draw:red="0%" draw:green="0%" draw:blue="0%" draw:gamma="100%" draw:color-inversion="false" draw:image-opacity="100%" draw:color-mode="standard"/>
   </style:style>
   <style:style style:name="fr3" style:family="graphic" style:parent-style-name="Graphics">
-   <style:graphic-properties style:vertical-pos="from-top" style:vertical-rel="paragraph" style:horizontal-pos="from-left" style:horizontal-rel="paragraph" style:mirror="none" fo:clip="rect(0cm, 0cm, 0cm, 0cm)" draw:luminance="0%" draw:contrast="0%" draw:red="0%" draw:green="0%" draw:blue="0%" draw:gamma="100%" draw:color-inversion="false" draw:image-opacity="100%" draw:color-mode="standard"/>
+   <style:graphic-properties fo:margin-left="0.199cm" fo:margin-right="0.199cm" fo:margin-top="0.199cm" fo:margin-bottom="0.199cm" style:vertical-pos="from-top" style:vertical-rel="paragraph" style:horizontal-pos="from-left" style:horizontal-rel="paragraph" draw:fill-image-width="0cm" draw:fill-image-height="0cm" style:shadow="none" draw:shadow-opacity="100%" style:mirror="none" fo:clip="rect(0cm, 0cm, 0cm, 0cm)" draw:luminance="0%" draw:contrast="0%" draw:red="0%" draw:green="0%" draw:blue="0%" draw:gamma="100%" draw:color-inversion="false" draw:image-opacity="100%" draw:color-mode="standard"/>
   </style:style>
   <style:style style:name="Sect1" style:family="section">
    <style:section-properties text:dont-balance-text-columns="false" style:editable="false">
@@ -6847,7 +6847,7 @@
    <text:section text:style-name="Sect3" text:name="Secció3">
     <text:h text:style-name="P18" text:outline-level="1">Licensing: free/open-source</text:h>
     <text:p text:style-name="P5">Apertium language data and code are both licensed under the GNU General Public License:</text:p>
-    <text:list xml:id="list185025429991761" text:continue-numbering="true" text:style-name="List_20_1">
+    <text:list xml:id="list191120443504542" text:continue-numbering="true" text:style-name="List_20_1">
      <text:list-item>
       <text:p text:style-name="P23"><text:span text:style-name="T16"><text:s/>a </text:span><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T16">free/open-source license allowing</text:span></text:span><text:span text:style-name="T16"> free distribution of unmodified and modified versions</text:span></text:p>
      </text:list-item>
@@ -6857,7 +6857,7 @@
     </text:list>
     <text:p text:style-name="P10"><text:span text:style-name="T19">The free/open-source model creates a </text:span><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T19">community</text:span></text:span><text:span text:style-name="T19"> which effectively connects </text:span><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T19">researchers</text:span></text:span><text:span text:style-name="T19">, </text:span><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T19">developers</text:span></text:span><text:span text:style-name="T19">, </text:span><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T19">vendors</text:span></text:span><text:span text:style-name="T19"> and </text:span><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T19">users</text:span></text:span><text:span text:style-name="T19">.</text:span></text:p>
     <text:h text:style-name="P19" text:outline-level="1"><text:soft-page-break/>The Apertium community</text:h>
-    <text:list xml:id="list185024225337295" text:continue-numbering="true" text:style-name="List_20_1">
+    <text:list xml:id="list191120142744385" text:continue-numbering="true" text:style-name="List_20_1">
      <text:list-item>
       <text:p text:style-name="P25">Very active group of hundreds of developers</text:p>
      </text:list-item>
@@ -6876,7 +6876,7 @@
     </text:list>
     <text:h text:style-name="P18" text:outline-level="1">Research and business with Apertium</text:h>
     <text:p text:style-name="P7">Apertium is already an active research and business platform:</text:p>
-    <text:list xml:id="list185023836003219" text:continue-numbering="true" text:style-name="List_20_1">
+    <text:list xml:id="list191119437008161" text:continue-numbering="true" text:style-name="List_20_1">
      <text:list-item>
       <text:p text:style-name="P23"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T20">Research</text:span></text:span><text:span text:style-name="T20">: 40+ publications, 2 PhD thesis, 4 master&apos;s theses.</text:span></text:p>
      </text:list-item>
@@ -6904,7 +6904,7 @@
     </text:list>
     <text:section text:style-name="Sect2" text:name="Secció4">
      <text:h text:style-name="P20" text:outline-level="1">Languages and language pairs</text:h>
-     <text:p text:style-name="P8"><draw:frame draw:style-name="fr3" draw:name="Imatge3" text:anchor-type="paragraph" svg:x="0cm" svg:y="0.173cm" svg:width="12.793cm" svg:height="6.932cm" draw:z-index="2"><draw:image>
+     <text:p text:style-name="P8"><draw:frame draw:style-name="fr3" draw:name="Imatge3" text:anchor-type="paragraph" svg:x="0cm" svg:y="0.169cm" svg:width="12.527cm" svg:height="6.787cm" draw:z-index="2"><draw:image>
         <office:binary-data>PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+
          CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIKICJodHRw
          Oi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPgo8IS0tIEdl
@@ -7525,7 +7525,7 @@
      <text:p text:style-name="Standard"/>
     </text:section>
     <text:h text:style-name="Heading_20_1" text:outline-level="1">S<text:span text:style-name="T9">ome s</text:span>uccess cases</text:h>
-    <text:list xml:id="list185024571205870" text:continue-list="list185023836003219" text:style-name="List_20_1">
+    <text:list xml:id="list191120323956457" text:continue-list="list191119437008161" text:style-name="List_20_1">
      <text:list-item>
       <text:p text:style-name="P25">in Wikimedia Content Translation, <text:span text:style-name="T9">Apertium</text:span> <text:span text:style-name="T9">translates </text:span>Wikipedia content;</text:p>
      </text:list-item>
@@ -7540,7 +7540,7 @@
      </text:list-item>
     </text:list>
     <text:h text:style-name="P22" text:outline-level="1">Funding</text:h>
-    <text:list xml:id="list185024619308067" text:continue-numbering="true" text:style-name="List_20_1">
+    <text:list xml:id="list191120547607436" text:continue-numbering="true" text:style-name="List_20_1">
      <text:list-item>
       <text:p text:style-name="P23">The Ministry of Industry, Tourism and Commerce of Spain (also, the Ministries of Education and Science and of Science and Technology of Spain)</text:p>
      </text:list-item>
