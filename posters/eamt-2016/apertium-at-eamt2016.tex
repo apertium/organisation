@@ -40,7 +40,7 @@
  %\usepackage{times}\usefonttheme{professionalfonts} % times is obsolete
  \usefonttheme[onlymath]{serif}
  \boldmath
-\usepackage[orientation=portrait,size=a0,scale=1.4]{beamerposter} % e.g. for DIN-A0 poster
+ \usepackage[orientation=portrait,size=a0,scale=1.4]{beamerposter} % e.g. for DIN-A0 poster
  %\usepackage[orientation=portrait,size=a1,scale=1.4,grid,debug]{beamerposter} % e.g. for DIN-A1 poster, with optional grid and debug output
 %\usepackage[size=custom,width=90,height=150,scale=2.1,debug]{beamerposter} % e.g. for custom size poster
  %\usepackage[orientation=portrait,size=a0,scale=1.0,printer=rwth-glossy-uv.df]{beamerposter} % e.g. for DIN-A0 poster with rwth-glossy-uv printer check
@@ -78,12 +78,9 @@
 
 \title{Apertium: A free/open-source platform \\ for machine translation and basic language technology \\[5mm]
 \texttt{www.apertium.org}}
-\author{IRC: \texttt{\#apertium at irc.freenode.net} \\
-Wiki: \texttt{wiki.apertium.org} \\
-Contact: Mikel L.\ Forcada \texttt{<mlf@ua.es>}, Francis M.\ Tyers \texttt{<ftyers@prompsit.com>}}
-\institute{~}
-%\institute{$^1$Departament de Llenguatges i Sistemes Inform{\`{a}}tics, Universitat d'Alacant, E-03690 Sant Vicent del Raspeig (Spain) \\ $^2$HSL-fakultehta, UiT Norgga árktalas universitehta, N-9018 Romsa (Norway) }
+ \author[Forcada, M.L. \& Tyers, F.M.]{\textbf{Mikel L. Forcada$^1$ \and Francis M.\ Tyers$^2$}}
 
+\institute[mlf@ua.es, francis.tyers@uit.no]{$^1$Departament de Llenguatges i Sistemes Inform{\`{a}}tics, Universitat d'Alacant, E-03690 Sant Vicent del Raspeig (Spain) \\ $^2$HSL-fakultehta, UiT Norgga árktalas universitehta, N-9018 Romsa (Norway) }
 \newcommand{\Pair}[2]{\texttt{#1}\(\leftrightarrow\)\texttt{#2}}
 \newcommand{\pair}[2]{\texttt{#1}\(\to\)\texttt{#2}}
 
@@ -91,7 +88,7 @@ Contact: Mikel L.\ Forcada \texttt{<mlf@ua.es>}, Francis M.\ Tyers \texttt{<ftye
 
 \begin{frame}
 \begin{columns}
-\begin{column}{1\textwidth}
+\begin{column}{0.5\textwidth}
 
 \begin{block}{Apertium components}
 \textbf{Since 2005}, Apertium provides:
@@ -185,13 +182,8 @@ Apertium language data and code are both licensed under the GNU General Public L
 \end{block}
 
 \end{column}
-\end{columns}
-\end{frame}
-%\end{column}
-%\begin{column}{0.5\textwidth}
-\begin{frame}
-\begin{columns}
-\begin{column}{1\textwidth}
+\begin{column}{0.5\textwidth}
+
 \begin{block}{Languages and language pairs}
 
 Language data is encoded mostly in XML, but some language pairs contain data encoded in other text-based formats.
