@@ -1,6 +1,6 @@
 digraph G {
 size ="12,8" ;
-node [shape=circle; fontsize=36] ;
+node [color=gray,shape=circle; fontsize=36] ;
 edge [arrowsize=2] ;
 afr -> nld [dir=both] ;
 arg -> cat [dir=both] ;
