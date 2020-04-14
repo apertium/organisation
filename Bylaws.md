@@ -27,7 +27,7 @@
 
 <ol start="4">
 	<li>Contributors are volunteers who contribute time, code, documentation, or resources to Apertium. A contributor that makes sustained, welcomed contributions to the project may be invited to become a Voting Member, though the exact timing of such invitations depends on many factors.</li>
-	<li>Contributors who have administrative rights to a repository may exercise those rights almost fully, including granting rights to new contributors, making releases, or set up automation. Potentially destructive or distruptive actions, such as deleting or renaming the repository or master branch, or breaking backwards compatibility, must be approved by a PMC member.</li>
+	<li>Contributors who have administrative rights to a repository may exercise those rights almost fully, including granting rights to new contributors, making releases, or setting up automation. Potentially destructive or distruptive actions, such as deleting or renaming the repository or master branch, or breaking backwards compatibility, must be approved by a PMC member.</li>
 	<li>Apertium recommends, but does not require, that contributors sign the Apertium Open Source Contributor License Agreement. However, contributions that are not licensed to Apertium in this way must be clearly marked with a GPLv2+ compatible license, plus the author's name and email or other identifying information sufficient for a lawyer to reach the contributor.</li>
 </ol>
 
@@ -41,8 +41,8 @@
 	<li>One tenth of the Assembly of Voting Members may propose a motion of censure to overturn the Project Management Committee, which has to be approved by half plus one of the members of the Assembly of Voting Members.</li>
 	<li>The number of members of the Assembly of Voting Members of Apertium does not have any limit.</li>
 	<li>Voting Member status is received by contributing to Apertium and getting sponsorship either by a PMC member or two existing Voting Members. Upon fulfillment of these conditions, the PMC will vote whether to grant voting rights.</li>
-	<li>A Voting Member is considered emeritus by their own declaration or by not contributing in any form to the project for over twelwe months. An emeritus Voting Member may request reinstatement of voting rights from the PMC.</li>
-	<li>The President and the Secretary of the Project Management Committee will also act as President and Secretary of the Assembly of Voting Members.</li>
+	<li>A Voting Member is considered emeritus by their own declaration or by not contributing in any form to the project for over twelve months. An emeritus Voting Member may request reinstatement of voting rights from the PMC.</li>
+	<li>The President of the Project Management Committee will also act as President of the Assembly of Voting Members.</li>
 	<li>The Assembly of Voting Members decides only on subjects proposed by the Project Management Committee.</li>
 	<li>Once submitted to it, the decisions of the Assembly of Voting Members are executive.</li>
 </ol>
@@ -88,9 +88,9 @@
 		<li>Any Voting Member may run for member of the Project Management Committee.</li>
 		<li>Any Voting Member may run for president of the Project Management Committee.</li>
 		<li>Candidates cannot be part of the Election Board.</li>
-		<li>When an election is called, the Election Board will publish a temporary census of Voting Members with right to vote will be published.</li>
+		<li>When an election is called, the Election Board will publish a temporary census of active Voting Members.</li>
 		<li>After 7 days to amend the census, a definitive census of Voting Members with right to vote will be published by the Election Board.</li>
-		<li>There will be 7 days for candidates to member and president to come forward.</li>
+		<li>There will be 7 days for candidates to Member and President to come forward.</li>
 		<li>The Election Board will proclaim the candidates to President and to Members of the Project Management Committee.</li>
 		<li>Once candidates are proclaimed, Voting Members with the right to vote will send a ballot with their preferred ranking of all
 			<ol style="list-style-type:lower-roman">
