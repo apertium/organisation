@@ -1,4 +1,4 @@
-Apertium Open Source Contributor License Agreement
+Apertium Free/Open-Source Contributor Licence Agreement
 
 The following terms are used throughout this agreement:
 - **Apertium** - the legal entity that can be reached via https://apertium.org/ and/or mail@apertium.org
@@ -6,15 +6,15 @@ The following terms are used throughout this agreement:
 - **Project** - is an umbrella term that refers to any and all Apertium open source projects.
 - **Contribution** - any type of work that is submitted to a Project, including any modifications or additions to existing work.
 - **Submitted** - conveyed to a Project via a pull request, commit, issue, or any form of electronic, written, or verbal communication with Apertium, contributors or maintainers.
-- **Open Source License** - any license that matches the Open Source Initiative's The Open Source Definition and/or Free Software Foundation's The Free Software Definition. See https://opensource.org/docs/osd and https://gnu.org/philosophy/free-sw.html
+- **Open Source Licence** - any licence that matches the Open Source Initiative's The Open Source Definition and/or Free Software Foundation's The Free Software Definition. See https://opensource.org/docs/osd and https://gnu.org/philosophy/free-sw.html
 
-1. Grant of Copyright License.
-    Subject to the terms and conditions of this agreement, You grant to the Projects’ maintainers, contributors, users and to Apertium a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable copyright license to reproduce, prepare derivative works of, publicly display, publicly perform, sublicense, and distribute Your contributions and such derivative works. Additionally, You grant to Apertium a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable copyright license to relicense Your contributions under any Open Source License, provided that Apertium makes every effort to use a license that is compatible with version 2 or later of the GNU General Public License.
+1. Grant of Copyright Licence.
+    Subject to the terms and conditions of this agreement, You grant to the Projects’ maintainers, contributors, users and to Apertium a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable copyright licence to reproduce, prepare derivative works of, publicly display, publicly perform, sublicense, and distribute Your contributions and such derivative works. Additionally, You grant to Apertium a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable copyright licence to relicense Your contributions under any Open Source Licence, provided that Apertium makes every effort to use a licence that is compatible with version 2 or later of the GNU General Public Licence.
 
-2. Grant of Patent License.
-    Subject to the terms and conditions of this agreement, You grant to the Projects’ maintainers, contributors, users and to Apertium a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable (except as stated in this section) patent license to make, have made, use, offer to sell, sell, import, and otherwise transfer your contributions, where such license applies only to those patent claims licensable by you that are necessarily infringed by your contribution or by combination of your contribution with the project to which this contribution was submitted.
+2. Grant of Patent Licence.
+    Subject to the terms and conditions of this agreement, You grant to the Projects’ maintainers, contributors, users and to Apertium a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable (except as stated in this section) patent licence to make, have made, use, offer to sell, sell, import, and otherwise transfer your contributions, where such licence applies only to those patent claims licensable by you that are necessarily infringed by your contribution or by combination of your contribution with the project to which this contribution was submitted.
 
-    If any entity institutes patent litigation - including cross-claim or counterclaim in a lawsuit - against You alleging that your contribution or any project it was submitted to constitutes or is responsible for direct or contributory patent infringement, then any patent licenses granted to that entity under this agreement shall terminate as of the date such litigation is filed.
+    If any entity institutes patent litigation - including cross-claim or counterclaim in a lawsuit - against You alleging that your contribution or any project it was submitted to constitutes or is responsible for direct or contributory patent infringement, then any patent licences granted to that entity under this agreement shall terminate as of the date such litigation is filed.
 
 3. Source of Contribution.
-    Your contribution is either your original creation, based upon previous work that, to the best of your knowledge, is covered under an appropriate open source license and you have the right under that license to submit that work with modifications, whether created in whole or in part by you, or you have clearly identified the source of the contribution and any license or other restriction (like related patents, trademarks, and license agreements) of which you are personally aware.
+    Your contribution is either your original creation, based upon previous work that, to the best of your knowledge, is covered under an appropriate open source licence and you have the right under that licence to submit that work with modifications, whether created in whole or in part by you, or you have clearly identified the source of the contribution and any licence or other restriction (like related patents, trademarks, and licence agreements) of which you are personally aware.

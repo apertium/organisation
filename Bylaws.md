@@ -14,7 +14,7 @@
 	</li>
 </ol>
 
-## Roles and Responsibilities
+## Roles and responsibilities
 
 ### Users
 
@@ -23,12 +23,12 @@
 	<li>Users contribute to Apertium by providing feedback to developers in the form of bug reports and feature suggestions. As well, users participate in the Apertium community by helping other users.</li>
 </ol>
 
-### Contributors and Contributions
+### Contributors and contributions
 
 <ol start="4">
-	<li>Contributors are volunteers who contribute time, code, documentation, or resources to Apertium. A contributor that makes sustained, welcomed contributions to Apertium may be invited to become a Voting Member, though the exact timing of such invitations depends on many factors.</li>
+	<li>Contributors are volunteers who contribute time, code, documentation, or resources to Apertium. A contributor that makes sustained, welcomed contributions to Apertium may be invited to become a Voting Member, though the exact timing of such invitations is not specified.</li>
 	<li>Contributors who have administrative rights to a repository may exercise those rights almost fully, including granting rights to new contributors, making releases, or setting up automation. Potentially destructive or distruptive actions, such as deleting or renaming the repository or master branch, or breaking backwards compatibility, must be approved by a PMC member, who may decide the action requires a PMC vote.</li>
-	<li>Apertium recommends, but does not require, that contributors sign the Apertium Open Source Contributor License Agreement. However, contributions that are not licensed to Apertium in this way must be clearly marked with a GPLv2+ compatible license, plus the author's name and email or other identifying information sufficient for a lawyer to reach the contributor.</li>
+	<li>Apertium recommends, but does not require, that contributors sign the Apertium Free/Open-Source Contributor Licence Agreement. However, contributions that are not licensed to Apertium in this way must be clearly marked with a GPLv2+ compatible licence, plus the author's name and email or other identifying information sufficient for a lawyer to reach the contributor.</li>
 </ol>
 
 ### The Assembly of Voting Members
@@ -113,7 +113,7 @@
 	</li>
 </ol>
 
-## Tied Votes
+## Tied votes
 
 <ol start="30">
 	<li>In the event of a tied vote, either by the Assembly or the PMC, the tie-breaker criteria should be to allow further discussion, if this is possible, and otherwise to vote in favour of the status quo. Which for elections means:
@@ -127,7 +127,7 @@
 ## Transitional provisions
 
 <ol start="31">
-	<li>The initial Assembly of Voting Members consists of everyone who were eligible to vote in the March 2020 PMC election, minus those who have been inactive for over two years. Voting in the election shall count as being active for this purpose.</li>
+	<li>The initial Assembly of Voting Members consists of everyone who was eligible to vote in the March 2020 PMC election, minus those who have been inactive for over two years. Voting in the election shall count as being active for this purpose.</li>
 </ol>
 
 #### Notes
