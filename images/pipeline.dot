@@ -1,0 +1,39 @@
+digraph {
+  rankdir = TB;
+  node [shape=box style="rounded"];
+  compound = true;
+
+  sltext [label=<Source Language<BR/>Text> shape=none];
+  deformat [label=<Deformatter<BR/>(Transfuse)> fillcolor=grey style="filled,rounded"];
+  morph [label=<Morphological<BR/>Analyzer<BR/><I>-morph</I>>];
+  attach [label=<Wordbound Blank<BR/>Attachment> fillcolor=grey style="filled,rounded"];
+  disam [label=<Morphological<BR/>Disambiguation<BR/><I>-disam</I>>];
+  sep1 [label=<Retokenization<BR/><I>-autoseq</I>> style="dashed,rounded"];
+  pretransfer [label=<Pretransfer<BR/><I>-pretransfer</I>> fillcolor=grey style="filled,rounded"];
+  biltrans [label=<Lexical<BR/>Transfer<BR/><I>-biltrans</I>>];
+  lexsel [label=<Lexical<BR/>Selection<BR/><I>-lex</I>>];
+  anaphora [label=<Anaphora<BR/>Resolution<BR/><I>-anaphora</I>> style="dashed,rounded"];
+  subgraph cluster_trx {
+    label = <Shallow<BR/>Structural Transfer>;
+    t1x [label=<Chunker<BR/><I>-chunker</I>>];
+    t2x [label=<Interchunk<BR/><I>-interchunk</I>>];
+    t3x [label=<Postchunk<BR/><I>-postchunk</I>>];
+    t1x -> t2x -> t3x;
+  };
+  rtx [label=<Recursive<BR/>Structural<BR/>Transfer<BR/><I>-transfer</I>>];
+  sep2 [label=<Retokenization<BR/><I>-revautoseq</I>> style="dashed,rounded"];
+  detach [label=<Wordbound Blank<BR/>Detachment> fillcolor=grey style="filled,rounded"];
+  gener [label=<Morphological<BR/>Generator<BR/><I>-gener</I>>];
+  postgen [label=<Post-Generator<BR/><I>-pgen</I>> style="dashed,rounded"];
+  reformat [label=<Reformatter<BR/>(Transfuse)> fillcolor=grey style="filled,rounded"];
+  tltext [label=<Target Language<BR/>Text> shape=none];
+
+  sltext -> deformat -> morph -> attach -> disam -> sep1 -> pretransfer -> biltrans -> lexsel -> anaphora -> rtx -> sep2 -> detach -> gener -> postgen -> reformat -> tltext;
+  anaphora -> t2x [lhead=cluster_trx];
+  t2x -> sep2 [ltail=cluster_trx];
+
+  subgraph {
+    rank = same;
+    morph; disam; sep1; biltrans; lexsel; anaphora; sep2; detach; gener; postgen;
+  };
+}
