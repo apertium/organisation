@@ -4726,7 +4726,7 @@
      </draw:image>
     </draw:frame><text:line-break/><text:line-break/><text:line-break/><text:line-break/></text:p>
    <text:p text:style-name="P15"><text:line-break/>Apertium: <text:span text:style-name="T5">a </text:span>free/open-source platform for machine translation and basic language technology</text:p>
-   <text:p text:style-name="P42"><text:a xlink:type="simple" xlink:href="http://www.apertium.org/" text:style-name="Internet_20_link" text:visited-style-name="Visited_20_Internet_20_Link">www.apertium.org</text:a><text:span text:style-name="T1"> </text:span></text:p>
+   <text:p text:style-name="P42"><text:a xlink:type="simple" xlink:href="https://apertium.org/" text:style-name="Internet_20_link" text:visited-style-name="Visited_20_Internet_20_Link">apertium.org</text:a><text:span text:style-name="T1"> </text:span></text:p>
    <text:p text:style-name="P13">Contact: Mikel L. Forcada &lt;<text:a xlink:type="simple" xlink:href="mailto:mlf@ua.es" text:style-name="Internet_20_link" text:visited-style-name="Visited_20_Internet_20_Link">mlf@ua.es</text:a>&gt;, Francis M. Tyers <text:span text:style-name="T24">&lt;</text:span><text:a xlink:type="simple" xlink:href="mailto:ftyers@iu.edu" text:style-name="Internet_20_link" text:visited-style-name="Visited_20_Internet_20_Link"><text:span text:style-name="T24">ftyers@iu.edu</text:span></text:a><text:span text:style-name="T24">&gt;</text:span></text:p>
    <text:section text:style-name="Sect1" text:name="Secció1">
     <text:h text:style-name="P16" text:outline-level="1">Apertium components</text:h>
@@ -6898,7 +6898,7 @@
       <text:p text:style-name="P27">Easy entry: Apertium linguistic modelling is simple, no need to program</text:p>
      </text:list-item>
      <text:list-item>
-      <text:p text:style-name="P23"><text:span text:style-name="T20">IRC channel </text:span><text:span text:style-name="Source_20_Text"><text:span text:style-name="T20">#apertium</text:span></text:span><text:span text:style-name="T20"> in </text:span><text:span text:style-name="Source_20_Text"><text:span text:style-name="T20">freenode.net</text:span></text:span></text:p>
+      <text:p text:style-name="P23"><text:span text:style-name="T20">IRC channel </text:span><text:span text:style-name="Source_20_Text"><text:span text:style-name="T20">#apertium</text:span></text:span><text:span text:style-name="T20"> in </text:span><text:span text:style-name="Source_20_Text"><text:span text:style-name="T20">oftc.net</text:span></text:span></text:p>
      </text:list-item>
      <text:list-item>
       <text:p text:style-name="P23"><text:span text:style-name="T16">Mailing lists: </text:span><text:span text:style-name="Source_20_Text"><text:span text:style-name="T16">apertium-stuff@lists.sf.net</text:span></text:span><text:span text:style-name="T16"> and other lists</text:span></text:p>
